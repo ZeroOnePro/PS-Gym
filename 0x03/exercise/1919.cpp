@@ -25,7 +25,6 @@ int main(void)
     {
       if (originCounts[i] != 0 && shuffledCounts[i] != 0)
       {
-        cout << "ddd" << '\n';
         if (originCounts[i] > shuffledCounts[i])
           cnt += originCounts[i] - shuffledCounts[i];
         else
