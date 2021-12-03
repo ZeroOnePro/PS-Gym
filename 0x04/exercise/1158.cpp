@@ -2,6 +2,11 @@
 
 using namespace std;
 
+list<int>::iterator ForCircularIterator(list<int> &l, list<int>::iterator &iter)
+{
+  return std::next(iter) == l.end() ? l.begin() : std::next(iter);
+}
+
 int main(void)
 {
   ios::sync_with_stdio(false);
@@ -13,34 +18,30 @@ int main(void)
   for (int i = 1; i <= n; ++i)
     seq.push_back(i);
   int seqLen = 0;
-  for (auto cursor = find(seq.begin(), seq.end(), k); seqLen != n;)
+  for (auto cursor = find(seq.begin(), seq.end(), k);;)
   {
     if (*cursor != -1)
     {
       jose.push_back(*cursor);
-      int term = 0;
-      cout << *seq.end() << '\n';
       *cursor = -1;
-      while (1)
-      {
-        cursor++;
-        if (*cursor != -1)
-        {
-          term += 1;
-          if (term == k)
-            break;
-        }
-        if (cursor == seq.end())
-        {
-          cursor = seq.begin();
-        }
-      }
       seqLen += 1;
+      if (seqLen == n)
+        break;
+      for (int i = 0; i < k;)
+      {
+        cursor = ForCircularIterator(seq, cursor);
+        if (*cursor != -1)
+          i++;
+      }
     }
   }
-  for (auto i : jose)
+  cout << '<';
+  for (auto it = jose.begin(); it != jose.end(); it++)
   {
-    cout << i << ' ';
+    cout << *it;
+    if (it != jose.end() - 1)
+      cout << ", ";
   }
+  cout << '>';
   return 0;
 }
