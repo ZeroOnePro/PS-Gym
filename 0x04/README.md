@@ -100,6 +100,17 @@ int main(void){
 
 - push_back, pop_back, push_front, pop_front의 시간복잡도는 O(1)이다.
 - iterator가 주소 역할
+- push_back을 하면 끝 원소(list.end())가 가리키는 게 리스트의 끝 원소가 아닐 수 있음에 주의
+
+- circular linked list구현 시 iterator를 아래와 같이 짜봤는데 정상적으로 동작했다.
+
+```cpp
+list<int>::iterator ForCircularIterator(list<int> &l, list<int>::iterator &iter)
+{
+  return std::next(iter) == l.end() ? l.begin() : std::next(iter);
+}
+```
+
 
 ### 0x03 연습 문제
 
@@ -127,5 +138,6 @@ int main(void){
 - 한 칸씩 이동하는 커서와 두 칸씩 이동하는 커서를 동시에 출발시킨다.
 - 사이클이 존재하면 두 커서는 반드시 만난다.
 - 하지만 사이클이 없을 경우 두 커서는 만날 수 없다.
+
 
 ** 본 자료는 바킹독님의 실전 알고리즘 강의를 바탕으로 제작되었습니다 **
