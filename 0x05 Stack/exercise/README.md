@@ -1,6 +1,6 @@
 # 문제풀이
 
-## 1874 스택 수열
+## 1874 스택 수열 (틀림)
 
 ### 내 풀이
 
@@ -236,3 +236,59 @@ cnt 이상인 값 t가 주어지면 그 값을 pop할 수 있게 cnt가 t가 될
 ### 교훈
   1. 문제를 완전히 이해했다고 생각할 때 코딩에 돌입한다.
   2. 여러케이스에서 시험해보면 좋으나 백준은 그게 좀 어렵기 때문에 질문탭에 들어가서 반례케이스를 살펴본다.
+
+
+## 2493 탑 (틀림)
+
+처음에는 입력 순서대로 스택으로 쌓고 하나씩 빼가며 top과 비교하며 current가 top보다 작거나 같다면 신호를 받을 수 있는 것이므로 top의 index를 저장해놓고
+반대로 current가 top보다 크다면 받을 수 없는 것이므로 체크해놓고 계속 pop해나가면서 current보다 큰 원소가 나오는지 검사한다. => O(N^2)이고 20분동안 생각해봤던 것 같다.
+50만 입력 크기에 N^2 시간 복잡도가 나오므로 틀릴 것을 직감하고있었으나 마땅한 수가 떠오르지 않았고, 풀면서 굳이 스택없이도 수열로도 가능한 걸 왜 스택으로 하고 있나 싶기도 했다.
+거꾸로도 스택에 쌓아봤는데 이걸 가지고 어떻게 해야하나 감이 잘 안오고 머리에서 생각하기를 거부했다. 이 나쁜 버릇은 고쳐야한다.
+스택 알고리즘 부족함의 밑천이 드러나는 것 같다. `스택은 연습 문제 이외에도 좀 더 풀어봐야겠다.`
+그래서 정답코드를 보기로 결정했다.
+
+```cpp
+// Authored by : twinkite
+// Co-authored by : BaaaaaaaaaaarkingDog
+// http://boj.kr/44465623025e452bba5feb80b0b0e60e
+#include <bits/stdc++.h>
+using namespace std;
+
+int N;
+stack<pair<int,int>> tower;
+
+int main() {
+  ios_base::sync_with_stdio(0);
+  cin.tie(0);
+
+  cin >> N;  
+  tower.push({100000001, 0});
+  for (int i = 1; i <= N; i++) {
+    int height;
+    cin >> height;
+    while (tower.top().first < height)
+      tower.pop();    
+    cout << tower.top().second << " ";
+    tower.push({height, i});      
+  }
+}
+```
+
+직관적으로는 이해가 잘 안가서 스텝 몇가지만 해보겠다.
+
+최대 입력 값보다 높은 높이인 관념적인 0번째 탑 first를 푸시하며 시작한다.
+
++ 6 9 5 7 4
+  + 6입력 first > height이므로 stack의 원소가 pop되지 않는다.
+  + pair형태로 탑의 인덱스를 저장하고 처음은 0을 출력하게 된다.
+  + {6,1}이 푸시된다.
+
+  + 9입력 first < height이므로 stack의 원소가 pop된다.
+  + 6의 index 0 출력
+  + {9,2}가 푸시된다.
+
+  + ...
+
++ first < height는 왼쪽 탑의 크기보다 오른쪽 탑의 크기가 크다는 이야기 이므로 신호를 받을 수 있는 즉 first >= height인 first를 찾을 때까지 pop을 해야한다.
++ 이게 되는 이유는 뒤에 first보다 크거나 같은 탑이 나와도 위에서 찾은 first >= height인 first는 스택에서 pop되지 않으므로 걸리게 되고 first와 찾은 탑 사이는 first보다 작으므로 무조건 찾은 탑이 신호를 받을 수 있음이 보장된다.
++ 반면 first > height는 왼쪽 탑의 크기가 오른쪽 탑의 크기보다 크다는 이야기이므로 신호를 받을 수 있고, 신호를 받을 수 있는탑이 나왔으므로 조사하지 않아도 된다.
