@@ -32,6 +32,8 @@
 + 스택에 진짜 취약한 것 같다.
 + 중간에 pop되는 풀이가 직관적으로 이해가 잘 안 가고, 너무 중간에 pop되지 않는 풀이만을 고집하는 것 같다. 그래서 자꾸 풀이가 산으로 가는 느낌이다.
 + `틀린 문제는 제대로 복습 안 하니 다시 틀린다.`
+
++ 추가적으로 풀어볼 문제들 백준 문제집 링크 - 스택
 + [2841](https://www.acmicpc.net/problem/2841)
 + [9935](https://www.acmicpc.net/problem/9935)
 + [2800](https://www.acmicpc.net/problem/2800)
@@ -39,9 +41,6 @@
 + [17298](https://www.acmicpc.net/problem/17298)
 + [23284](https://www.acmicpc.net/problem/23284)
 + [17608](https://www.acmicpc.net/problem/17608)
-
-+ 추가적으로 풀어볼 문제들 백준 문제집 링크 - 스택
-
 + [알고리즘 분류 - 스택](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71&algo_if=and&page=1)
 + [자료구조 문제집 easy](https://www.acmicpc.net/workbook/view/7750)
 + [자료구조 문제집 normal](https://www.acmicpc.net/workbook/view/7751)
