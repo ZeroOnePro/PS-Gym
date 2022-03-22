@@ -44,6 +44,15 @@ const getProblemInfo = async (problemIds: string) => {
   return data;
 };
 
+const colorList: { [key: string]: string } = {
+  Bronze: "#AD5600",
+  Silver: "#435F7A",
+  Gold: "#EC9A01",
+  Platinum: "#28E2A4",
+  Diamond: "#00B4FC",
+  Ruby: "#FF0062",
+};
+
 (async () => {
   const cppFileList = await getCppFileList();
   const problems: ProblemData[] = await getProblemInfo(cppFileList.join());
@@ -52,9 +61,11 @@ const getProblemInfo = async (problemIds: string) => {
   map(problems, (problem: ProblemData) => {
     table += `|${problem.problemId}|${
       problem.titleKo
-    }|[링크](https://www.acmicpc.net/problem/${problem.problemId})|${
-      levelList[problem.level]
-    }|${problem.averageTries}|`;
+    }|[링크](https://www.acmicpc.net/problem/${
+      problem.problemId
+    })|<span style="color:${
+      colorList[levelList[problem.level].split(" ")[0]]
+    }">${levelList[problem.level]}</span>|${problem.averageTries}|`;
     let tagNames = "";
     map(problem.tags, (tag: Tag, index: number) => {
       tagNames += `[${
