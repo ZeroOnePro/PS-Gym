@@ -23,21 +23,21 @@ jobs:
       
       # install packages
       - name: Use Node.js ${{ matrix.node-version }}
-      - uses: actions/setup-node@v2
-      - with:
+        uses: actions/setup-node@v2
+        with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
-      - run: yarn install
+          
+      - name: Install npm packages
+        run: yarn install
       
       # generate markdown file
       - name: Generate markdown file
-      - uses: actions/setup-node@v2
-      - run: yarn generate 
+        run: yarn generate 
 
       # Commits all changed files to the repository
       - name: Commit to the repo
-      - uses: actions/setup-node@v2
-      - run: |
+        run: |
           git config --global user.name "ZeroOnePro"
           git config --global user.email "dbtjdals1771@ajou.ac.kr"
           git add .
