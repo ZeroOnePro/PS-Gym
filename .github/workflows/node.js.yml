@@ -20,6 +20,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
@@ -33,9 +34,9 @@ jobs:
       # Commits all changed files to the repository
       - name: Commit to the repo
         run: |
-          git config --global user.name "ZeroOnePro/github-stats"
-          git config --global user.email "github-stats[bot]@ZeroOnePro.github.io"
+          git config --global user.name "ZeroOnePro"
+          git config --global user.email "dbtjdals1771@ajou.ac.kr"
           git add .
           # "echo" returns true so the build succeeds, even if no changed files
-          git commit -m 'github 리포로지토리 통계를 업데이트 하였습니다.' || echo
+          git commit -m '해결한 문제리스트를 업데이트하였습니다.' || echo
           git push
