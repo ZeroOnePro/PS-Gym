@@ -26,4 +26,16 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: yarn install
-      - run: yarn generate
+      
+      - name: Generate markdown file
+      - run: yarn generate 
+
+      # Commits all changed files to the repository
+      - name: Commit to the repo
+        run: |
+          git config --global user.name "ZeroOnePro/github-stats"
+          git config --global user.email "github-stats[bot]@ZeroOnePro.github.io"
+          git add .
+          # "echo" returns true so the build succeeds, even if no changed files
+          git commit -m 'github 리포로지토리 통계를 업데이트 하였습니다.' || echo
+          git push
