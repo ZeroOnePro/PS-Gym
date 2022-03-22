@@ -4,7 +4,7 @@
   "description": "study for algorithms",
   "main": "problemListCollector.ts",
   "scripts": {
-    "test": "test"
+    "test": "ts-node problemListCollector.ts"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,8 @@
   "dependencies": {
     "axios": "^0.26.1",
     "glob": "^7.2.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "ts-node": "^10.7.0"
   },
   "devDependencies": {
     "@types/glob": "^7.2.0",

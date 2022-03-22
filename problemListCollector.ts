@@ -50,9 +50,11 @@ const getProblemInfo = async (problemIds: string) => {
   let table = `|번호|문제|링크|난이도|평균 시도 횟수|태그|\n|:---:|:---:|:---:|:---:|:---:|:---:|\n`;
 
   map(problems, (problem: ProblemData) => {
-    table += `|${problem.problemId}|${problem.titleKo}|[링크](boj.kr/${
-      problem.problemId
-    })|${levelList[problem.level]}|${problem.averageTries}|`;
+    table += `|${problem.problemId}|${
+      problem.titleKo
+    }|[링크](https://www.acmicpc.net/problem/${problem.problemId})|${
+      levelList[problem.level]
+    }|${problem.averageTries}|`;
     let tagNames = "";
     map(problem.tags, (tag: Tag, index: number) => {
       tagNames += `[${
