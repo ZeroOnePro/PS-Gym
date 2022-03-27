@@ -42,7 +42,7 @@
 
 ## 0x02 연습 문제 2 - 하노이 탑
 
-![hanoi.gif](<![hanoi](https://user-images.githubusercontent.com/48282185/160282171-6ac2b913-7026-4478-a511-fc7852e2a1af.gif)>)
+![hanoi.gif](https://user-images.githubusercontent.com/48282185/160282171-6ac2b913-7026-4478-a511-fc7852e2a1af.gif)
 
 - 중간에서 n-1개의 탑이 완성돼있어야 함
 - 맨 밑의 n번 원판부터 어떻게 기둥 3으로 옮길지 부터 생각해보자

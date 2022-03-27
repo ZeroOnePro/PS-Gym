@@ -2,6 +2,10 @@
 
 using namespace std;
 
+// 재귀 구현 순서
+// 1. 함수 정의 => 인자랑 기능
+// 2. base condition 설정
+// 3. 재귀 식 수립 => 규칙 찾기
 int z_traversal(int r, int c, int n) {
   if (n == 0) return 0;
   int half = 1 << (n - 1);
