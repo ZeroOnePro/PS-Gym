@@ -1,6 +1,6 @@
 import axios from "axios";
 import fs from "fs";
-import { filter, map } from "lodash";
+import { compact, filter, flatMap, keys, map, reduce, values } from "lodash";
 import getCppFileList from "./explorer";
 import levelList from "./decisionRank";
 
@@ -54,9 +54,22 @@ const colorList: { [key: string]: string } = {
 };
 
 (async () => {
-  const cppFileList = await getCppFileList();
-  const problems: ProblemData[] = await getProblemInfo(cppFileList.join());
-  let table = `|번호|문제|링크|난이도|평균 시도 횟수|태그|\n|:---:|:---:|:---:|:---:|:---:|:---:|\n`;
+  let cppFileList = await getCppFileList();
+  const files = compact(cppFileList.map((problem) => values(problem)[0]));
+  const categorize = reduce(
+    cppFileList,
+    (result: { [x: number]: string }, value, key) => {
+      const swapKey = values(value)[0];
+      const swapValue = keys(value)[0];
+      if (!isNaN(swapKey)) result[swapKey] = swapValue;
+      return result;
+    },
+    {}
+  );
+
+  const problems: ProblemData[] = await getProblemInfo(files.join());
+
+  let table = `|번호|문제|링크|난이도|카테고리|태그|\n|:---:|:---:|:---:|:---:|:---:|:---:|\n`;
 
   map(problems, (problem: ProblemData) => {
     table += `|${problem.problemId}|${
@@ -65,7 +78,9 @@ const colorList: { [key: string]: string } = {
       problem.problemId
     })|<span style="color:${
       colorList[levelList[problem.level].split(" ")[0]]
-    }">${levelList[problem.level]}</span>|${problem.averageTries}|`;
+    }">${levelList[problem.level]}</span>|[${
+      categorize[problem.problemId]
+    }](./${categorize[problem.problemId].replace(/\s/gi, "%20")}/)|`;
     let tagNames = "";
     map(problem.tags, (tag: Tag, index: number) => {
       tagNames += `[${

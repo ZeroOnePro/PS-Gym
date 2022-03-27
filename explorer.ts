@@ -11,9 +11,12 @@ const getCppFileList = async () => {
   const files = await cppFiles;
   return uniq(
     compact(
-      map(files, (filePath: string) =>
-        parseInt(path.basename(filePath, path.extname(filePath)), 10)
-      )
+      map(files, (filePath: string) => ({
+        [filePath.split("/")[1]]: parseInt(
+          path.basename(filePath, path.extname(filePath)),
+          10
+        ),
+      }))
     )
   );
 };
