@@ -1,4 +1,4 @@
-import { map, includes, mapKeys, merge } from "lodash";
+import { lodash } from "./index";
 
 const lanks = {
   Bronze: [1, 2, 3, 4, 5],
@@ -17,9 +17,9 @@ let levelList: { [key: number]: string } = {
 
 let added: { [key: number]: string }[] = [];
 
-mapKeys(lanks, (value: number[], key: string) => {
-  const classify = map(value, (index: number) => {
-    if (includes(value, index)) {
+lodash.mapKeys(lanks, (value: number[], key: string) => {
+  const classify = lodash.map(value, (index: number) => {
+    if (lodash.includes(value, index)) {
       return {
         [index]: `${key} ${
           romanLetters[(index % 5) - 1 === -1 ? 4 : (index % 5) - 1]
@@ -30,6 +30,6 @@ mapKeys(lanks, (value: number[], key: string) => {
   added.push(...(classify as { [key: number]: string }[]));
 });
 
-levelList = merge(levelList, ...added);
+levelList = lodash.merge(levelList, ...added);
 
 export default levelList;

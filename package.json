@@ -2,9 +2,10 @@
   "name": "algorithm-gym",
   "version": "1.0.0",
   "description": "study for algorithms",
-  "main": "problemListCollector.ts",
+  "main": "./scripts/index.ts",
   "scripts": {
-    "generate": "ts-node problemListCollector.ts"
+    "generate": "ts-node ./scripts/problemListCollector.ts",
+    "clear": "sh ./scripts/remove_binaries.sh"
   },
   "repository": {
     "type": "git",

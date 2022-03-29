@@ -1,5 +1,15 @@
 # Algorithm-Gym
 
+## 스크립트
+
+```bash
+
+yarn generate # 해결한 문제리스트 markdown 파일 생성
+
+yarn clear # cpp binary 실행 파일 재귀적 제거
+
+```
+
 ## 공부 방법
 
 - 바킹독 알고리즘 강의 커리큘럼에 맞춰서 이론 정리(강의 + 종만북) 및 연습 문제 풀기

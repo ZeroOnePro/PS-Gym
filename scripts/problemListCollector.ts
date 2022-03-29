@@ -1,8 +1,6 @@
-import axios from "axios";
-import fs from "fs";
-import { compact, filter, flatMap, keys, map, reduce, values } from "lodash";
-import getCppFileList from "./explorer";
 import levelList from "./decisionRank";
+import getCppFileList from "./explorer";
+import { axios, fs, lodash } from "./index";
 
 interface DisplayName {
   language: string;
@@ -55,12 +53,14 @@ const colorList: { [key: string]: string } = {
 
 (async () => {
   let cppFileList = await getCppFileList();
-  const files = compact(cppFileList.map((problem) => values(problem)[0]));
-  const categorize = reduce(
+  const files = lodash.compact(
+    cppFileList.map((problem) => lodash.values(problem)[0])
+  );
+  const categorize = lodash.reduce(
     cppFileList,
     (result: { [x: number]: string }, value, key) => {
-      const swapKey = values(value)[0];
-      const swapValue = keys(value)[0];
+      const swapKey = lodash.values(value)[0];
+      const swapValue = lodash.keys(value)[0];
       if (!isNaN(swapKey)) result[swapKey] = swapValue;
       return result;
     },
@@ -71,7 +71,7 @@ const colorList: { [key: string]: string } = {
 
   let table = `|번호|문제|링크|난이도|카테고리|태그|\n|:---:|:---:|:---:|:---:|:---:|:---:|\n`;
 
-  map(problems, (problem: ProblemData) => {
+  lodash.map(problems, (problem: ProblemData) => {
     table += `|${problem.problemId}|${
       problem.titleKo
     }|[링크](https://www.acmicpc.net/problem/${
@@ -82,7 +82,7 @@ const colorList: { [key: string]: string } = {
       categorize[problem.problemId]
     }](./${categorize[problem.problemId].replace(/\s/gi, "%20")}/)|`;
     let tagNames = "";
-    map(problem.tags, (tag: Tag, index: number) => {
+    lodash.map(problem.tags, (tag: Tag, index: number) => {
       tagNames += `[${
         tag.displayNames[1].name
       }](https://www.acmicpc.net/problemset?sort=ac_desc&algo=${tag.bojTagId})${
@@ -92,5 +92,6 @@ const colorList: { [key: string]: string } = {
     table += `${tagNames}|\n`;
   });
 
-  fs.writeFileSync("problemList.md", table);
+  fs.writeFileSync(__dirname + "/../problemList.md", table);
+  console.log("해결한 문제리스트를 업데이트 하였습니다.");
 })();
