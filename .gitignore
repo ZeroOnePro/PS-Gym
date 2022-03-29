@@ -1,5 +1,8 @@
+# ignore binary execute file
 *
-!/**/
+!*/
 !*.*
+
+# generate problem list dependencies
 ./problemList.md
 node_modules
