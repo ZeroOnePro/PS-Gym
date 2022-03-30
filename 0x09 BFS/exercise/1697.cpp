@@ -2,9 +2,6 @@
 
 using namespace std;
 
-#define x first
-#define y second
-
 int dist[100002];
 
 int n, k;
