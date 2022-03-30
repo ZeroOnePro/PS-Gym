@@ -2,6 +2,9 @@
 
 using namespace std;
 
+// 1차원 bfs
+// 범위에 주의
+
 int f, s, g, u, d;
 
 int dist[1000002];

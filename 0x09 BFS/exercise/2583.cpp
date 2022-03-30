@@ -2,6 +2,10 @@
 
 using namespace std;
 
+// 2차원 bfs
+// flood fill
+// 영역의 개수, 너비 구하기
+
 #define x first
 #define y second
 
