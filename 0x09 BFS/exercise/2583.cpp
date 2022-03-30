@@ -39,6 +39,7 @@ int main(void) {
   for (int i = 0; i < k; ++i) {
     int lx, ly, rx, ry;
     cin >> ly >> lx >> ry >> rx;
+    // 굳이 안뒤집어도 영역의 너비랑 개수는 변하지 않는데, 헷갈림
     // 행이 문제임 => 뒤집어야함
     lx = m - lx;  // 왼쪽 아래
     rx = m - rx;  // 오른쪽 위
