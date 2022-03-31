@@ -4,7 +4,7 @@ import levelList from "./lank";
 import { GenerateMarkdown } from "./type";
 
 export const generateMarkdown: GenerateMarkdown = (problems, categories) => {
-  let table = `|번호|문제|난이도|카테고리|태그|\n|:---:|:---:|:---:|:---:|:---:|:---:|\n`;
+  let table = `|번호|문제|난이도|카테고리|태그|\n|:---:|:---:|:---:|:---:|:---:|\n`;
 
   lodash.map(problems, (problem) => {
     table += `|${problem.problemId}|[${
