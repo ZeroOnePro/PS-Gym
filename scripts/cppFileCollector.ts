@@ -4,7 +4,7 @@ const globModule = util.promisify(glob);
 
 const cppFiles = globModule("./**/exercise/*.cpp");
 
-const getCppFileList = async () => {
+const getCppFiles = async () => {
   const files = await cppFiles;
   return lodash.uniq(
     lodash.compact(
@@ -18,4 +18,10 @@ const getCppFileList = async () => {
   );
 };
 
-export default getCppFileList;
+const getProblemNums = (
+  cppFiles: {
+    [x: string]: number;
+  }[]
+) => lodash.compact(cppFiles.map((problem) => lodash.values(problem)[0]));
+
+export { getCppFiles, getProblemNums };

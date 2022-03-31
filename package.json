@@ -4,7 +4,7 @@
   "description": "study for algorithms",
   "main": "./scripts/index.ts",
   "scripts": {
-    "generate": "ts-node ./scripts/problemListCollector.ts",
+    "generate": "ts-node ./scripts/generate.ts",
     "clear": "sh ./scripts/remove_binaries.sh"
   },
   "repository": {
