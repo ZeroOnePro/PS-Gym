@@ -46,6 +46,10 @@ int construct_bridge(queue<pair<int, int>>& q, int* min_len) {
       if (country[nx][ny] == country[cur.x][cur.y]) continue;
       // 다른 구역을 만났을 때
       if (country[nx][ny] != 0) {
+        // dist[cur.x][cur.y] = 출발 섬에서 현재좌표 까지의 거리
+        // +
+        // dist[nx][ny] = 다른 섬에서 다음 좌표까지의 거리
+        // = 출발 섬에서 다른 섬까지의 거리
         *min_len = min(*min_len, dist[cur.x][cur.y] + dist[nx][ny]);
       } else {
         q.push({nx, ny});
