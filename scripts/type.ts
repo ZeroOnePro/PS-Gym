@@ -1,4 +1,3 @@
-import { generateMarkdown } from "./markdown";
 export interface DisplayName {
   language: string;
   name: string;

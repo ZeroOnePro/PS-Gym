@@ -1,12 +1,12 @@
 import { lodash } from "./index";
 
 const lanks = {
-  Bronze: [1, 2, 3, 4, 5],
-  Silver: [6, 7, 8, 9, 10],
-  Gold: [11, 12, 13, 14, 15],
-  Platinum: [16, 17, 18, 19, 20],
-  Diamond: [21, 22, 24, 24, 25],
-  Rudy: [26, 27, 28, 29, 30],
+  Bronze: lodash.range(1, 6),
+  Silver: lodash.range(6, 11),
+  Gold: lodash.range(11, 16),
+  Platinum: lodash.range(16, 21),
+  Diamond: lodash.range(21, 26),
+  Rudy: lodash.range(26, 31),
 };
 
 const romanLetters = ["V", "IV", "III", "II", "I"];
