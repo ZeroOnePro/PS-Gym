@@ -1,6 +1,6 @@
 # Algorithm-Gym
 
-https://progress-bar.dev/7/?scale=10&title=mark&suffix=/
+![](https://progress-bar.dev/7/?scale=10&title=mark&suffix=/)
 
 ## 공부 방법
 
