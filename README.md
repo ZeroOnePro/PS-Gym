@@ -1,7 +1,5 @@
 # Algorithm-Gym
 
-![](https://progress-bar.dev/7/?scale=10&title=mark&suffix=/)
-
 ## 공부 방법
 
 - 바킹독 알고리즘 강의 커리큘럼에 맞춰서 이론 정리(강의 + 종만북(필요한 경우)) 및 연습 문제 풀기
