@@ -5,3 +5,6 @@
 
 # generate problem list dependencies
 node_modules
+
+# apple directory management file
+.DS_Store
