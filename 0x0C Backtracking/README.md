@@ -20,24 +20,23 @@
 using namespace std;
 
 int n, m;
-int sequence[10];
+int seq[10];
 bool is_used[10];
 
-// 현재 x개까지의 수를 선택 후 sequence[x](= x+1 번째 수)를 정하는 함수
-void make_sequence(int x){
- if(x == m){
-  for(int i = 0; i < m; ++i) cout << sequence[i] << ' ';
+// 현재 x개까지의 수를 선택 후 seq[x](= x+1 번째 수)를 정하는 함수
+void make_seq(int cur){
+ if(cur == m){
+  for(int i = 0; i < m; ++i) cout << seq[i] << ' ';
   cout << '\n';
  }
 
  /* 핵심 로직 */
- for(int i = 1; i <=n; ++i){
-  if(!is_used[i]){
-   sequence[x] = i;
-   is_used[i] = true;
-   make_sequence(x + 1);
-   is_used[i] = false;
-  }
+ for(int elem = 1; elem <= n; ++elem){
+  if (is_used[elem]) continue;
+  is_used[elem] = true;
+  seq[cur] = elem;
+  make_seq(cur + 1);
+  is_used[elem] = false;
  }
  /**********/
 }
@@ -46,7 +45,7 @@ int main(void){
  ios::sync_with_stdio(false);
  cin.tie(nullptr);
  cin >> n >> m;
- make_sequence(0);
+ make_seq(0);
 }
 ```
 
@@ -77,9 +76,7 @@ int main(void){
 
 using namespace std;
 
-bool is_used_col[40]; // column을 차지하고 있는지
-bool is_used_rd[40]; // / 방향 대각선을 차지하고 있는지 right diagonal
-bool is_used_ld[40]; // \ 방향 대각선을 차지하고 있는지 left diagonal
+bool is_used[3][40];  // 1차원 열, 2차원 오른 대각, 3차원 왼 대각
 
 int cnt;
 int n;
@@ -93,17 +90,18 @@ void n_queen(int row) { // row번째 행에 말을 배치할 예정임
   // column이나 대각선 중에 공격 가능 좌표가 있을 경우
   // x(row) + y(i)
   // x(row) - y(i) + n-1(인덱스 음수 방지, 모듈러와 비슷한 맥락, abs써도 무방)
-    if (is_used_col[i] || is_used_rd[i+row] || is_used_ld[row-i+n-1])
+   if (is_used[0][col] or is_used[1][row + col] or
+        is_used[2][row - col + n - 1])
       continue;
-    is_used_col[i] = true;
-    is_used_rd[i+row] = true;
-    is_used_ld[row-i+n-1] = true;
+    is_used[0][col] = true;
+    is_used[1][row + col] = true;
+    is_used[2][row - col + n - 1] = true;
 
-  n_queen(row+1);
+    n_queen(row + 1);
 
-  is_used_col[i] = false;
-    is_used_rd[i+row] = false;
-    is_used_ld[row-i+n-1] = false;
+    is_used[0][col] = false;
+    is_used[1][row + col] = false;
+    is_used[2][row - col + n - 1] = false;
   }
 }
 
