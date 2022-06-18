@@ -1,6 +1,13 @@
 # Algorithm-Gym
 
+<div align=center>
+
+[![Solved.ac
+ 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=tjdals1771)](https://solved.ac/tjdals1771)
+
 ![mazandi profile](http://mazandi.herokuapp.com/api?handle=tjdals1771&theme=dark)
+
+</div>
 
 ## 공부 방법
 
