@@ -1,5 +1,7 @@
 # Algorithm-Gym
 
+![mazandi profile](http://mazandi.herokuapp.com/api?handle=tjdals1771&theme=dark)
+
 ## 공부 방법
 
 - 바킹독 알고리즘 강의 커리큘럼에 맞춰서 이론 정리(강의 + 종만북(필요한 경우)) 및 연습 문제 풀기
