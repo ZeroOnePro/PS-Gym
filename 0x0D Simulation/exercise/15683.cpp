@@ -15,7 +15,7 @@ using namespace std;
 int n, m;
 int office[10][10];
 int copied_office[10][10];  // 각 경우의 수 살펴본 후 마킹 지우는 작업 없애기
-                            // 위헤 복사본을 사용
+                            // 위해 복사본을 사용
 
 int dx[4] = {1, 0, -1, 0};
 int dy[4] = {0, 1, 0, -1};
