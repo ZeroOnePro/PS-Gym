@@ -1,5 +1,18 @@
 # 0x0E 정렬 I
 
+<!--ts-->
+
+- [0x0E 정렬 I](#0x0e-정렬-i)
+  - [0x00 기초 정렬](#0x00-기초-정렬)
+  - [0x01 Merge Sort](#0x01-merge-sort)
+  - [0x02 Quick Sort](#0x02-quick-sort)
+  - [0x03 Merge Sort vs Quick Sort](#0x03-merge-sort-vs-quick-sort)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+<!-- Added by: sungminyou, at: 2022년 6월 28일 화요일 12시 59분 29초 KST -->
+
+<!--te-->
+
 오름차순을 기준으로 정리했음
 
 ## 0x00 기초 정렬
