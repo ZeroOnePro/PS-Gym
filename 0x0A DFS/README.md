@@ -1,3 +1,18 @@
+# 0x0A DFS
+
+<!--ts-->
+
+- [0x0A DFS](#0x0a-dfs)
+  - [0x00 알고리즘 설명](#0x00-알고리즘-설명)
+  - [0x01 예시](#0x01-예시)
+  - [0x02 BFS vs DFS](#0x02-bfs-vs-dfs)
+  - [0x03 그래프 탐색과 Cycle](#0x03-그래프-탐색과-cycle)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+<!-- Added by: sungminyou, at: 2022년 6월 28일 화요일 12시 56분 31초 KST -->
+
+<!--te-->
+
 ## 0x00 알고리즘 설명
 
 - 다차원 배열에서 각 칸을 방문할 때 깊이를 우선으로 방문하는 알고리즘
