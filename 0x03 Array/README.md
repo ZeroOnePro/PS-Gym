@@ -1,3 +1,18 @@
+# 0x03 배열
+
+<!--ts-->
+
+- [0x03 배열](#0x03-배열)
+  - [0x00 정의와 성질](#0x00-정의와-성질)
+  - [0x01 기능과 구현](#0x01-기능과-구현)
+  - [0x02 STL vector에 관하여](#0x02-stl-vector에-관하여)
+  - [0x03 연습문제](#0x03-연습문제)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+<!-- Added by: sungminyou, at: 2022년 6월 28일 화요일 12시 49분 44초 KST -->
+
+<!--te-->
+
 ## 0x00 정의와 성질
 
 1. O(1)의 연산으로 k번째 원소를 확인/수정 가능
@@ -23,27 +38,27 @@ using namespace std;
 
 void insert(int idx, int num, int arr[], int& len){
   // 맨끝에 한 칸을 만들고 오른쪽부터 한 칸씩 땡겨온다.
-	for(int i = len; i > idx; i--)
-		arr[i] = arr[i-1];
-	arr[idx] num;
-	len++;
+ for(int i = len; i > idx; i--)
+  arr[i] = arr[i-1];
+ arr[idx] num;
+ len++;
 }
 
 void erase(int idx, int arr[], int& len){
-	len--;
-	// 왼쪽부터 하나씩 당겨오고 맨 끝 원소 삭제
-	for(int i = idx; i < len; ++i) 
-		arr[i] = arr[i+1];
+ len--;
+ // 왼쪽부터 하나씩 당겨오고 맨 끝 원소 삭제
+ for(int i = idx; i < len; ++i)
+  arr[i] = arr[i+1];
 }
 
 void printArr(int arr[], int& len){
-	for(int i=0; i < len; ++i) cout << arr[i] << ' ';
-	cout << '\n\n';
+ for(int i=0; i < len; ++i) cout << arr[i] << ' ';
+ cout << '\n\n';
 }
 ```
 
 - 특정 값으로 배열을 초기화 하기
-    - fill함수 사용
+  - fill함수 사용
 
 ```cpp
 fill(a, a+21, 0);
@@ -64,7 +79,7 @@ fill(a, a+21, 0);
 ```cpp
 // 참조자를 씀으로써 seq vector의 실제 원소들이 2로 수정됨
 for(int& elem : seq){
-	elem = 2;
+ elem = 2;
 }
 ```
 
@@ -73,7 +88,7 @@ for(int& elem : seq){
 - 데이터를 자주 바꾸지 않고 쌓아두고 싶을 때 활용될 수 있음( ex)입력을 담아두는 용도)
 
 - 10808 알파벳 갯수
-    - 인덱스에 해당하는 원소를 빠르게 접근하려는 목적으로 배열을 사용하면 효율적으로 풀리는 문제
-    - 빈도수 배열
+  - 인덱스에 해당하는 원소를 빠르게 접근하려는 목적으로 배열을 사용하면 효율적으로 풀리는 문제
+  - 빈도수 배열
 
-** 본 내용은 바킹독님의 유튜브 실전 코딩테스트 강의의 내용을 기반으로 제작되었습니다 **
+**본 내용은 바킹독님의 유튜브 실전 코딩테스트 강의의 내용을 기반으로 제작되었습니다**
