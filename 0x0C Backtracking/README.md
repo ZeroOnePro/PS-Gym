@@ -1,3 +1,19 @@
+# 0x0C 백트래킹
+
+<!--ts-->
+
+- [0x0C 백트래킹](#0x0c-백트래킹)
+  - [0x00 알고리즘 설명](#0x00-알고리즘-설명)
+  - [0x01 연습 문제 1 - N과 M](#0x01-연습-문제-1---n과-m)
+  - [0x02 연습 문제 2 - N-Queen](#0x02-연습-문제-2---n-queen)
+  - [0x03 연습 문제 3 - 부분수열의 합](#0x03-연습-문제-3---부분수열의-합)
+  - [0x04 STL next_permutation](#0x04-stl-next_permutation)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+<!-- Added by: sungminyou, at: 2022년 6월 28일 화요일 12시 58분 21초 KST -->
+
+<!--te-->
+
 ## 0x00 알고리즘 설명
 
 - 현재 상태에서 가능한 모든 후보군을 따라 들어가며 탐색하는 알고리즘
