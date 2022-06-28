@@ -5,7 +5,10 @@
   "main": "./scripts/index.ts",
   "scripts": {
     "generate": "ts-node ./scripts/generate.ts",
-    "clear": "sh ./scripts/remove_binaries.sh"
+    "clear": "sh ./scripts/remove_binaries.sh",
+    "insert:toc": "sh ./scripts/insert.toc.sh",
+    "update:toc": "sh ./scripts/update.toc.sh",
+    "clear:backup": "sh ./scripts/delete.backup.sh"
   },
   "repository": {
     "type": "git",

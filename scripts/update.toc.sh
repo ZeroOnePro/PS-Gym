@@ -1,0 +1,1 @@
+~/gh-md-toc --insert "$INIT_CWD/README.md"
