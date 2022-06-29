@@ -23,5 +23,8 @@
     "algorithm": "cpp",
     "forward_list": "cpp",
     "list": "cpp"
-  } // 요거 넣어줘야 설정이 merge된대요.
+  },
+  "explorer.openEditors.sortOrder": "editorOrder",
+  "explorer.sortOrder": "default",
+  "explorer.sortOrderLexicographicOptions": "unicode"
 }
