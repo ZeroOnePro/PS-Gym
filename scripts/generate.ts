@@ -9,7 +9,6 @@ const generate = async () => {
   const problems: ProblemData[] = [];
   if (problemNums.length > 100) {
     const digit = Math.ceil(problemNums.length / 100);
-    console.log(lodash.uniq(problemNums).length);
     for (let iter = 1; iter <= digit; ++iter) {
       problems.push(
         ...(await getProblems(problemNums.slice(100 * (iter - 1), 100 * iter)))
