@@ -36,6 +36,12 @@
 
 yarn generate # 해결한 문제리스트 markdown 파일 생성
 
-yarn clear # cpp binary 실행 파일 재귀적 제거
+yarn clear # binary 실행 파일 재귀적 제거
+
+yarn insert:toc # README.md 파일에 목차 삽입
+
+yarn update:toc # README.md 파일 목차 갱신
+
+yarn delete:backup # 목차 삽입 전 백업 파일들 삭제, update:toc의 결과물로 백업 파일들 생성
 
 ```
