@@ -13,6 +13,7 @@ int main(void) {
     bool possible_combination = false;
     int year;
     int mx = lcm(m, n);
+    // 이걸 안해주면 나머지는 무조건 m이나 n보다 작기에 안걸러진다
     if (x == m) x = 0;
     if (y == n) y = 0;
     // 입력 크기를 보면 1부터 시작하면 시간초과가 난다
@@ -21,7 +22,7 @@ int main(void) {
     // 나눴을 때 나머지가 n인지 검사한다 최대 lcm(m, n) / m만큼 걸린다
     // 하나의 범위를 정해놓고 나머지의 탐색범위를 줄이는 방법으로 접근하였음
     for (int i = x; i <= mx; i += m) {
-      if (i == 0) continue;
+      if (i == 0) continue;  // lcm대신 0이 나오는 것을 방지
       if (i % n == y) {
         possible_combination = true;
         year = i;
