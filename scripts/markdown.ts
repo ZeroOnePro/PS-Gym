@@ -9,7 +9,7 @@ export const generateMarkdown: GenerateMarkdown = (problems, categories) => {
   lodash.map(categories, (value: string[], key: string) => {
     content += `## ${key}\n\n`;
     content += `해결 문제 수: ${value.length}\n\n`;
-    content += `[풀이 링크](./${encodeURI(key)}/exercise)\n\n`;
+    content += `[풀이 링크](../${encodeURI(key)}/exercise)\n\n`;
 
     const categoriezed_problems: ProblemData[] = [];
 
