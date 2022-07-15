@@ -26,7 +26,7 @@
 
 ## 링크
 
-[해결한 문제 리스트](./problemList.md)
+[해결한 문제 리스트](./solved%20problem%20list/)
 
 [각 챕터별 연습문제 리스트](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md)
 

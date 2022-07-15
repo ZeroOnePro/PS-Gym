@@ -48,6 +48,6 @@ export type GetProblems = (problemNums: number[]) => Promise<ProblemData[]>;
 export type GenerateMarkdown = (
   problems: ProblemData[],
   categories: {
-    [x: number]: string;
+    [x: string]: string[];
   }
 ) => void;

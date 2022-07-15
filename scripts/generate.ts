@@ -17,7 +17,24 @@ const generate = async () => {
   } else {
     problems.push(...(await getProblems(problemNums)));
   }
-  generateMarkdown(problems, categories);
+
+  let categorize = lodash.reduce(
+    categories,
+    (result: { [key: string]: string[] }, value: string, key: string) => {
+      (result[value] || (result[value] = [])).push(key);
+      return result;
+    },
+    {}
+  );
+
+  categorize = Object.keys(categorize)
+    .sort()
+    .reduce((obj: { [key: string]: string[] }, key) => {
+      obj[key] = categorize[key];
+      return obj;
+    }, {});
+
+  generateMarkdown(problems, categorize);
 };
 
 generate();
