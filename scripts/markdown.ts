@@ -9,12 +9,16 @@ export const generateMarkdown: GenerateMarkdown = (problems, categories) => {
   const file = fs.readFileSync(__dirname + `/../workbook.json`, "utf8");
   const workbook: { [key: string]: number[] } = JSON.parse(file);
 
+  const total_problems = Object.values(workbook).flat(Infinity);
+
+  content += `![100%](https://progress-bar.dev/${problems.length}/?scale=${total_problems.length}&title=progress&width=621&color=babaca&suffix=/${total_problems.length})\n\n`;
+
   lodash.map(categories, (value: string[], key: string) => {
     content += `## ${key}\n\n`;
 
     const workbook_problems = workbook[key.split(" ")[0]];
 
-    content += `![100%](https://progress-bar.dev/${value.length}/?scale=${workbook_problems.length}&title=progress&width=500&color=babaca&suffix=/${workbook_problems.length})\n\n`;
+    content += `![100%](https://progress-bar.dev/${value.length}/?scale=${workbook_problems.length}&title=progress&width=621&color=babaca&suffix=/${workbook_problems.length})\n\n`;
 
     content += `[풀이 링크](../${encodeURI(key)}/exercise)\n\n`;
 

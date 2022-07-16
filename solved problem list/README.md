@@ -1,8 +1,10 @@
 # 해결한 문제리스트
 
+![100%](https://progress-bar.dev/124/?scale=423&title=progress&width=621&color=babaca&suffix=/423)
+
 ## 0x02 How to write basic codes 2
 
-![100%](https://progress-bar.dev/27/?scale=27&title=progress&width=500&color=babaca&suffix=/27)
+![100%](https://progress-bar.dev/27/?scale=27&title=progress&width=621&color=babaca&suffix=/27)
 
 [풀이 링크](../0x02%20How%20to%20write%20basic%20codes%202/exercise)
 
@@ -38,7 +40,7 @@
 
 ## 0x03 Array
 
-![100%](https://progress-bar.dev/8/?scale=8&title=progress&width=500&color=babaca&suffix=/8)
+![100%](https://progress-bar.dev/8/?scale=8&title=progress&width=621&color=babaca&suffix=/8)
 
 [풀이 링크](../0x03%20Array/exercise)
 
@@ -55,7 +57,7 @@
 
 ## 0x04 Linked List
 
-![100%](https://progress-bar.dev/3/?scale=3&title=progress&width=500&color=babaca&suffix=/3)
+![100%](https://progress-bar.dev/3/?scale=3&title=progress&width=621&color=babaca&suffix=/3)
 
 [풀이 링크](../0x04%20Linked%20List/exercise)
 
@@ -67,7 +69,7 @@
 
 ## 0x05 Stack
 
-![100%](https://progress-bar.dev/7/?scale=8&title=progress&width=500&color=babaca&suffix=/8)
+![100%](https://progress-bar.dev/7/?scale=8&title=progress&width=621&color=babaca&suffix=/8)
 
 [풀이 링크](../0x05%20Stack/exercise)
 
@@ -83,7 +85,7 @@
 
 ## 0x06 Queue
 
-![100%](https://progress-bar.dev/3/?scale=3&title=progress&width=500&color=babaca&suffix=/3)
+![100%](https://progress-bar.dev/3/?scale=3&title=progress&width=621&color=babaca&suffix=/3)
 
 [풀이 링크](../0x06%20Queue/exercise)
 
@@ -95,7 +97,7 @@
 
 ## 0x07 Deque
 
-![100%](https://progress-bar.dev/3/?scale=4&title=progress&width=500&color=babaca&suffix=/4)
+![100%](https://progress-bar.dev/3/?scale=4&title=progress&width=621&color=babaca&suffix=/4)
 
 [풀이 링크](../0x07%20Deque/exercise)
 
@@ -107,7 +109,7 @@
 
 ## 0x08 Incorrect paif of parentheses
 
-![100%](https://progress-bar.dev/4/?scale=5&title=progress&width=500&color=babaca&suffix=/5)
+![100%](https://progress-bar.dev/4/?scale=5&title=progress&width=621&color=babaca&suffix=/5)
 
 [풀이 링크](../0x08%20Incorrect%20paif%20of%20parentheses/exercise)
 
@@ -120,7 +122,7 @@
 
 ## 0x09 BFS
 
-![100%](https://progress-bar.dev/21/?scale=30&title=progress&width=500&color=babaca&suffix=/30)
+![100%](https://progress-bar.dev/21/?scale=30&title=progress&width=621&color=babaca&suffix=/30)
 
 [풀이 링크](../0x09%20BFS/exercise)
 
@@ -150,7 +152,7 @@
 
 ## 0x0B Recursive
 
-![100%](https://progress-bar.dev/9/?scale=10&title=progress&width=500&color=babaca&suffix=/10)
+![100%](https://progress-bar.dev/9/?scale=10&title=progress&width=621&color=babaca&suffix=/10)
 
 [풀이 링크](../0x0B%20Recursive/exercise)
 
@@ -168,7 +170,7 @@
 
 ## 0x0C Backtracking
 
-![100%](https://progress-bar.dev/4/?scale=20&title=progress&width=500&color=babaca&suffix=/20)
+![100%](https://progress-bar.dev/4/?scale=20&title=progress&width=621&color=babaca&suffix=/20)
 
 [풀이 링크](../0x0C%20Backtracking/exercise)
 
@@ -181,7 +183,7 @@
 
 ## 0x0D Simulation
 
-![100%](https://progress-bar.dev/4/?scale=60&title=progress&width=500&color=babaca&suffix=/60)
+![100%](https://progress-bar.dev/4/?scale=60&title=progress&width=621&color=babaca&suffix=/60)
 
 [풀이 링크](../0x0D%20Simulation/exercise)
 
@@ -194,7 +196,7 @@
 
 ## 0x0E Sorting I
 
-![100%](https://progress-bar.dev/1/?scale=8&title=progress&width=500&color=babaca&suffix=/8)
+![100%](https://progress-bar.dev/1/?scale=8&title=progress&width=621&color=babaca&suffix=/8)
 
 [풀이 링크](../0x0E%20Sorting%20I/exercise)
 
@@ -204,7 +206,7 @@
 
 ## 0x0F Sorting II
 
-![100%](https://progress-bar.dev/2/?scale=9&title=progress&width=500&color=babaca&suffix=/9)
+![100%](https://progress-bar.dev/2/?scale=9&title=progress&width=621&color=babaca&suffix=/9)
 
 [풀이 링크](../0x0F%20Sorting%20II/exercise)
 
@@ -215,7 +217,7 @@
 
 ## 0x10 Dynamic Programming
 
-![100%](https://progress-bar.dev/7/?scale=44&title=progress&width=500&color=babaca&suffix=/44)
+![100%](https://progress-bar.dev/7/?scale=44&title=progress&width=621&color=babaca&suffix=/44)
 
 [풀이 링크](../0x10%20Dynamic%20Programming/exercise)
 
@@ -231,7 +233,7 @@
 
 ## 0x11 Greedy
 
-![100%](https://progress-bar.dev/4/?scale=17&title=progress&width=500&color=babaca&suffix=/17)
+![100%](https://progress-bar.dev/4/?scale=17&title=progress&width=621&color=babaca&suffix=/17)
 
 [풀이 링크](../0x11%20Greedy/exercise)
 
@@ -244,7 +246,7 @@
 
 ## 0x12 Mathematics
 
-![100%](https://progress-bar.dev/6/?scale=39&title=progress&width=500&color=babaca&suffix=/39)
+![100%](https://progress-bar.dev/6/?scale=39&title=progress&width=621&color=babaca&suffix=/39)
 
 [풀이 링크](../0x12%20Mathematics/exercise)
 
@@ -259,7 +261,7 @@
 
 ## 0x13 Binary Search
 
-![100%](https://progress-bar.dev/5/?scale=21&title=progress&width=500&color=babaca&suffix=/21)
+![100%](https://progress-bar.dev/5/?scale=21&title=progress&width=621&color=babaca&suffix=/21)
 
 [풀이 링크](../0x13%20Binary%20Search/exercise)
 
@@ -273,7 +275,7 @@
 
 ## 0x14 Two Pointer
 
-![100%](https://progress-bar.dev/2/?scale=11&title=progress&width=500&color=babaca&suffix=/11)
+![100%](https://progress-bar.dev/2/?scale=11&title=progress&width=621&color=babaca&suffix=/11)
 
 [풀이 링크](../0x14%20Two%20Pointer/exercise)
 
@@ -284,7 +286,7 @@
 
 ## 0x15 Hash
 
-![100%](https://progress-bar.dev/2/?scale=10&title=progress&width=500&color=babaca&suffix=/10)
+![100%](https://progress-bar.dev/2/?scale=10&title=progress&width=621&color=babaca&suffix=/10)
 
 [풀이 링크](../0x15%20Hash/exercise)
 
@@ -295,7 +297,7 @@
 
 ## 0x16 Binary Search Tree
 
-![100%](https://progress-bar.dev/2/?scale=7&title=progress&width=500&color=babaca&suffix=/7)
+![100%](https://progress-bar.dev/2/?scale=7&title=progress&width=621&color=babaca&suffix=/7)
 
 [풀이 링크](../0x16%20Binary%20Search%20Tree/exercise)
 
