@@ -14,5 +14,5 @@ for chapter in chapters:
   except Exception as e:
     print('예외 발생 사유: ', e)
 
-with open('./workbook.json', 'w', encoding='utf-8') as file:
+with open('./scripts/workbook.json', 'w', encoding='utf-8') as file:
       json.dump(workbook, file)
