@@ -1,4 +1,4 @@
-# Algorithm-Gym
+# PS-Gym
 
 <div align=center>
 
