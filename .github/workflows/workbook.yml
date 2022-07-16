@@ -1,0 +1,39 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Generate Workbook
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.9"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8 pytest
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+    - name: generate workbook
+      run: |
+        python3 workbook.py
+  
+   # Commits all changed files to the repository
+    - name: Commit to the repo
+      run: |
+        git config --global user.name "ZeroOnePro"
+        git config --global user.email "dbtjdals1771@ajou.ac.kr"
+        git add .
+        # "echo" returns true so the build succeeds, even if no changed files
+        git commit -m 'workbook을 업데이트 하였습니다' || echo
+        git push
