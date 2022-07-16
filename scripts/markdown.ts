@@ -6,9 +6,16 @@ import { GenerateMarkdown, ProblemData } from "./type";
 export const generateMarkdown: GenerateMarkdown = (problems, categories) => {
   let content = "# 해결한 문제리스트\n\n";
 
+  const file = fs.readFileSync(__dirname + `/../workbook.json`, "utf8");
+  const workbook: { [key: string]: number[] } = JSON.parse(file);
+
   lodash.map(categories, (value: string[], key: string) => {
     content += `## ${key}\n\n`;
-    content += `해결 문제 수: ${value.length}\n\n`;
+
+    const workbook_problems = workbook[key.split(" ")[0]];
+
+    content += `![100%](https://progress-bar.dev/${value.length}/?scale=${workbook_problems.length}&title=progress&width=500&color=babaca&suffix=/${workbook_problems.length})\n\n`;
+
     content += `[풀이 링크](../${encodeURI(key)}/exercise)\n\n`;
 
     const categoriezed_problems: ProblemData[] = [];
