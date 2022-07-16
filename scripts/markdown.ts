@@ -6,7 +6,7 @@ import { GenerateMarkdown, ProblemData } from "./type";
 export const generateMarkdown: GenerateMarkdown = (problems, categories) => {
   let content = "# 해결한 문제리스트\n\n";
 
-  const file = fs.readFileSync(__dirname + `/../workbook.json`, "utf8");
+  const file = fs.readFileSync(__dirname + `/workbook.json`, "utf8");
   const workbook: { [key: string]: number[] } = JSON.parse(file);
 
   const total_problems = Object.values(workbook).flat(Infinity);
