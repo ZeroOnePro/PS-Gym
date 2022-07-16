@@ -70,6 +70,7 @@ jobs:
         run: |
           git config --global user.name "ZeroOnePro/Algorithm-Gym"
           git config --global user.email "action[bot]@ZeroOnePro.github.io"
+          git pull origin main
           git add .
           # "echo" returns true so the build succeeds, even if no changed files
           git commit -m '해결한 문제리스트를 업데이트하였습니다.' || echo
