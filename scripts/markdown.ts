@@ -11,14 +11,15 @@ export const generateMarkdown: GenerateMarkdown = (problems, categories) => {
 
   const total_problems = Object.values(workbook).flat(Infinity);
 
-  content += `![100%](https://progress-bar.dev/${problems.length}/?scale=${total_problems.length}&title=progress&width=621&color=babaca&suffix=/${total_problems.length})\n\n`;
+  content += `현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수\n\n`;
+  content += `![100%](https://progress-bar.dev/${problems.length}/?scale=${total_problems.length}&title=progress&width=600&color=babaca&suffix=/${total_problems.length})\n\n`;
 
   lodash.map(categories, (value: string[], key: string) => {
     content += `## ${key}\n\n`;
 
     const workbook_problems = workbook[key.split(" ")[0]];
 
-    content += `![100%](https://progress-bar.dev/${value.length}/?scale=${workbook_problems.length}&title=progress&width=621&color=babaca&suffix=/${workbook_problems.length})\n\n`;
+    content += `![100%](https://progress-bar.dev/${value.length}/?scale=${workbook_problems.length}&title=progress&width=600&color=babaca&suffix=/${workbook_problems.length})\n\n`;
 
     content += `[풀이 링크](../${encodeURI(key)}/exercise)\n\n`;
 
