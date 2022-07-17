@@ -2,7 +2,7 @@
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/124/?scale=423&title=progress&width=600&color=babaca&suffix=/423)
+![100%](https://progress-bar.dev/127/?scale=423&title=progress&width=600&color=babaca&suffix=/423)
 
 ## 0x02 How to write basic codes 2
 
@@ -307,4 +307,16 @@
 |:---:|:---:|:---:|:---:|
 |1202|[보석 도둑](https://www.acmicpc.net/problem/1202)|<span style="color:#EC9A01">Gold II</span>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
 |7662|[이중 우선순위 큐](https://www.acmicpc.net/problem/7662)|<span style="color:#EC9A01">Gold IV</span>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59), [set / map by trees](https://www.acmicpc.net/problemset?sort=ac_desc&algo=74)|
+
+## 0x17 Priority Queue
+
+![100%](https://progress-bar.dev/3/?scale=8&title=progress&width=600&color=babaca&suffix=/8)
+
+[풀이 링크](../0x17%20Priority%20Queue/exercise)
+
+|번호|문제|난이도|태그|
+|:---:|:---:|:---:|:---:|
+|1715|[카드 정렬하기](https://www.acmicpc.net/problem/1715)|<span style="color:#EC9A01">Gold IV</span>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59)|
+|1927|[최소 힙](https://www.acmicpc.net/problem/1927)|<span style="color:#435F7A">Silver II</span>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59)|
+|11286|[절댓값 힙](https://www.acmicpc.net/problem/11286)|<span style="color:#435F7A">Silver I</span>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59)|
 
