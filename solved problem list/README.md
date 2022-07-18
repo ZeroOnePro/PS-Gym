@@ -2,7 +2,7 @@
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/127/?scale=423&title=progress&width=600&color=babaca&suffix=/423)
+![100%](https://progress-bar.dev/129/?scale=423&title=progress&width=600&color=babaca&suffix=/423)
 
 ## 0x02 How to write basic codes 2
 
@@ -319,4 +319,15 @@
 |1715|[카드 정렬하기](https://www.acmicpc.net/problem/1715)|<span style="color:#EC9A01">Gold IV</span>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59)|
 |1927|[최소 힙](https://www.acmicpc.net/problem/1927)|<span style="color:#435F7A">Silver II</span>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59)|
 |11286|[절댓값 힙](https://www.acmicpc.net/problem/11286)|<span style="color:#435F7A">Silver I</span>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59)|
+
+## 0x18 Graph
+
+![100%](https://progress-bar.dev/2/?scale=13&title=progress&width=600&color=babaca&suffix=/13)
+
+[풀이 링크](../0x18%20Graph/exercise)
+
+|번호|문제|난이도|태그|
+|:---:|:---:|:---:|:---:|
+|1260|[DFS와 BFS](https://www.acmicpc.net/problem/1260)|<span style="color:#435F7A">Silver II</span>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11), [breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127)|
+|11724|[연결 요소의 개수](https://www.acmicpc.net/problem/11724)|<span style="color:#435F7A">Silver II</span>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11), [breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127)|
 
