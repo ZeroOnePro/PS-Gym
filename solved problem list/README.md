@@ -2,7 +2,7 @@
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/129/?scale=423&title=progress&width=600&color=babaca&suffix=/423)
+![100%](https://progress-bar.dev/131/?scale=423&title=progress&width=600&color=babaca&suffix=/423)
 
 ## 0x02 How to write basic codes 2
 
@@ -330,4 +330,15 @@
 |:---:|:---:|:---:|:---:|
 |1260|[DFS와 BFS](https://www.acmicpc.net/problem/1260)|<span style="color:#435F7A">Silver II</span>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11), [breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127)|
 |11724|[연결 요소의 개수](https://www.acmicpc.net/problem/11724)|<span style="color:#435F7A">Silver II</span>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11), [breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127)|
+
+## 0x19 Tree
+
+![100%](https://progress-bar.dev/2/?scale=13&title=progress&width=600&color=babaca&suffix=/13)
+
+[풀이 링크](../0x19%20Tree/exercise)
+
+|번호|문제|난이도|태그|
+|:---:|:---:|:---:|:---:|
+|1991|[트리 순회](https://www.acmicpc.net/problem/1991)|<span style="color:#435F7A">Silver I</span>|[recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62), [tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=120)|
+|11725|[트리의 부모 찾기](https://www.acmicpc.net/problem/11725)|<span style="color:#435F7A">Silver II</span>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11), [tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=120), [breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127)|
 
