@@ -38,9 +38,11 @@ export const generateMarkdown: GenerateMarkdown = (problems, categories) => {
         problem.titleKo
       }](https://www.acmicpc.net/problem/${
         problem.problemId
-      })|<span style="color:${
+      })|<div style="display:flex;"><img height="25px" width="25px" src="https://static.solved.ac/tier_small/${
+        problem.level
+      }.svg"/><span style="color:${
         colorList[levelList[problem.level].split(" ")[0]]
-      }">${levelList[problem.level]}</span>|`;
+      }">${levelList[problem.level]}</span></div>|`;
       let tagNames = "";
       lodash.map(problem.tags, (tag, index: number) => {
         tagNames += `[${
