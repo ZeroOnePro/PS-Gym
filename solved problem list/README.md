@@ -2,7 +2,7 @@
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/131/?scale=423&title=progress&width=600&color=babaca&suffix=/423)
+![100%](https://progress-bar.dev/132/?scale=423&title=progress&width=600&color=babaca&suffix=/423)
 
 ## 0x02 How to write basic codes 2
 
@@ -341,4 +341,14 @@
 |:---:|:---:|:---:|:---:|
 |1991|[트리 순회](https://www.acmicpc.net/problem/1991)|<span style="color:#435F7A">Silver I</span>|[recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62), [tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=120)|
 |11725|[트리의 부모 찾기](https://www.acmicpc.net/problem/11725)|<span style="color:#435F7A">Silver II</span>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11), [tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=120), [breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127)|
+
+## 0x1A Topological Sorting
+
+![100%](https://progress-bar.dev/1/?scale=7&title=progress&width=600&color=babaca&suffix=/7)
+
+[풀이 링크](../0x1A%20Topological%20Sorting/exercise)
+
+|번호|문제|난이도|태그|
+|:---:|:---:|:---:|:---:|
+|2252|[줄 세우기](https://www.acmicpc.net/problem/2252)|<span style="color:#EC9A01">Gold III</span>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [topological sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=78)|
 
