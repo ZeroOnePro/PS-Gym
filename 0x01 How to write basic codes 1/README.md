@@ -54,7 +54,7 @@
 
   - 평균 ⇒ logN초
 
-    - 자세한 증명은 [다음 링크 참조](<[https://iq.opengenus.org/time-complexity-of-binary-search/](https://iq.opengenus.org/time-complexity-of-binary-search/)>) / 기댓값(어떤 확률적 사건에 대한 [평균](<https://ko.wikipedia.org/wiki/%ED%8F%89%EA%B7%A0_(%ED%86%B5%EA%B3%84%ED%95%99)>)의 의미)으로 계산한다. 어떤 케이스가 이진탐색의 대상이 될 지 모르기 때문에 확률을 이용하여 평균을 구하는 것이 타당하다.
+    - 자세한 증명은 [다음 링크 참조](<https://iq.opengenus.org/time-complexity-of-binary-search/](https://iq.opengenus.org/time-complexity-of-binary-search>)   / 기댓값(어떤 확률적 사건에 대한 [평균](<https://ko.wikipedia.org/wiki/%ED%8F%89%EA%B7%A0_(%ED%86%B5%EA%B3%84%ED%95%99)>)의 의미)으로 계산한다. 어떤 케이스가 이진탐색의 대상이 될 지 모르기 때문에 확률을 이용하여 평균을 구하는 것이 타당하다.
 
   - 대표적인 시간복잡도와 허용 범위
 
