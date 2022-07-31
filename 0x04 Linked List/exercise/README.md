@@ -1,4 +1,4 @@
-# Learing About
+# Learning About
 
 <!--ts-->
 
