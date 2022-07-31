@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int main(void)
-{
+int main(void) {
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
   string text;
@@ -11,57 +10,34 @@ int main(void)
   int m;
   cin >> m;
   list<char> editor;
-  for (auto ch : text)
-  {
+  for (auto ch : text) {
     editor.push_back(ch);
   }
   int init = editor.size();
   auto cursor = editor.end();
-  while (m--)
-  {
+  while (m--) {
     string command;
     cin >> command;
-    if (command == "L")
-    {
-      if (cursor != editor.begin())
-        --cursor;
-    }
-    else if (command == "D")
-    {
-      if (cursor != editor.end())
-        ++cursor;
-    }
-    else if (command == "B")
-    {
-      if (cursor != editor.begin())
-      {
+    if (command == "L") {
+      if (cursor != editor.begin()) --cursor;
+    } else if (command == "D") {
+      if (cursor != editor.end()) ++cursor;
+    } else if (command == "B") {
+      if (cursor != editor.begin()) {
         cursor--;
-        if (cursor == editor.end())
-        {
-          editor.pop_back();
-        }
-        else
-        {
-          cursor = editor.erase(cursor);
-        }
+        cursor = editor.erase(cursor);
       }
-    }
-    else
-    {
+    } else {
       char add;
       cin >> add;
-      if (cursor != editor.begin())
-      {
+      if (cursor != editor.begin()) {
         editor.insert(cursor, add);
-      }
-      else
-      {
+      } else {
         editor.push_front(add);
       }
     }
   }
-  for (auto i : editor)
-  {
+  for (auto i : editor) {
     cout << i;
   }
   cout << '\n';
