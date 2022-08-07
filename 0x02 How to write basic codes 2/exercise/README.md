@@ -1,6 +1,21 @@
 # Learning About
 
-## 특수기호 문자열에 삽입하는 법
+<!--ts-->
+
+- [Learning About](#learning-about)
+  - [1. 특수기호 문자열에 삽입하는 법](#1-특수기호-문자열에-삽입하는-법)
+  - [2. getline 메서드](#2-getline-메서드)
+  - [3. 홀 짝 판단 비트연산식](#3-홀-짝-판단-비트연산식)
+  - [4. next_permutation](#4-next_permutation)
+  - [5. 역으로 뒤집는 함수 reverse](#5-역으로-뒤집는-함수-reverse)
+  - [6. 최대 / 최소 찾는 max_element, min_element](#6-최대--최소-찾는-max_element-min_element)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+<!-- Added by: sungminyou, at: 2022년 8월  6일 토요일 22시 04분 36초 KST -->
+
+<!--te-->
+
+## 1. 특수기호 문자열에 삽입하는 법
 
 [10171 - 고양이](https://www.acmicpc.net/problem/10171)
 
@@ -10,7 +25,7 @@
 - \" : "(더블 쿼티션) 표시
 - \\ : \(역슬래시 표시)
 
-## getline 메서드
+## 2. getline 메서드
 
 [2490 - 윷놀이 문제](https://www.acmicpc.net/problem/2490)에서 공백으로 데이터가 구분되는데, 처리는 공백단위가 아닌 한 줄씩 하길 원함
 
@@ -21,7 +36,7 @@ getline(cin, input);
 
 - 줄 단위로 데이터를 처리하고 싶을 때 사용
 
-## 홀 짝 판단 비트연산식
+## 3. 홀 짝 판단 비트연산식
 
 [2576 - 홀수](https://www.acmicpc.net/problem/2576)
 
@@ -35,7 +50,7 @@ if(i&1) cout << '홀수';
 else cout << '짝수';
 ```
 
-## next_permutation
+## 4. next_permutation
 
 [2309 - 일곱 난쟁이](https://www.acmicpc.net/problem/2309)
 
@@ -54,7 +69,7 @@ next_permutation(v.begin(), v.end());
   - temp의 모든 순열을 구합니다.
   - temp의 순열에서 원소값이 1인 인덱스만 배열 s에서 가져옵니다.
 
-## 역으로 뒤집는 함수 reverse
+## 5. 역으로 뒤집는 함수 reverse
 
 [10184 - 카드 역배치](https://www.acmicpc.net/problem/10804)
 
@@ -66,7 +81,7 @@ reverse(v.begin(), v.end());
 
 - 벡터를 쓰면서 뒤집을 때 사용, 스택으로도 가능
 
-## 최대 / 최소 찾는 max_element, min_element
+## 6. 최대 / 최소 찾는 max_element, min_element
 
 - 최대값을 찾는다.
 
