@@ -118,17 +118,17 @@
   - 세 번째 2가 4와 쌍을 이루면, 네 번째 다섯 번째 2도 4와 쌍을 이루므로, 세 번째 2를 pop하면서, 그것과 쌍을 이루는 수를 기억해뒀다가 네 번째 2와 쌍을 이루는 수에 누적시켜야한다
   - top의 원소밖에 참조 못하는다는 스택의 특성 때문에 중간원소를 참조못한다, but 문제를 풀려면 각 사람이 자신과 이루는 쌍의 수가 저장되어야하기에, pair를 써서 기록해둔다(사람의 높이로 쌍이 되는지 보는 것이기 때문에 키는 스택으로 관리되어야하고, 보조 정보로 쌍의 수가 저장되어야함)
 
-  ```cpp
-    int height, cnt = 1;
-    cin >> height;
-    while (!s.empty() && s.top().first <= height) {
-      if (s.top().first == height) cnt += s.top().second;
-      ans += s.top().second;
-      s.pop();
-    }
-    if (!s.empty() && s.top().first > height) ans++;
-    s.push({height, cnt});
-  ```
+```cpp
+  int height, cnt = 1;
+  cin >> height;
+  while (!s.empty() && s.top().first <= height) {
+    if (s.top().first == height) cnt += s.top().second;
+    ans += s.top().second;
+    s.pop();
+  }
+  if (!s.empty() && s.top().first > height) ans++;
+  s.push({height, cnt});
+```
 
 ## [6549 - 히스토그램에서 가장 큰 직사각형](https://www.acmicpc.net/problem/6549)
 
@@ -146,7 +146,7 @@
 - 현재 위치를 기준으로(input의 순서) 이전에 나왔던 막대기까지의 너비는 막대기 높이 \* (현재 위치 - 막대기 위치)로 구할 수 있다
   - 처음에는 cnt가지고 했었는데 아래와 같은 경우가 있어서 처리가 까다롭다
   - stack size를 저장해둘까도 고민해봤었는데, cnt처럼 처리가 까다롭다
-- 2 1 4 5 1 3 3의 경우 두 번째 1은 마지막 3을 연결해서 너비가 6인 직사각형을 만들 수 있다
+- 2 1 4 5 1 3 3의 경우 두 번째 1과 마지막 3을 연결해서 너비가 6인 직사각형을 만들 수 있다
 - 오아시스 재결합 문제처럼 pop하면서 input과 동일한 값이 나올 경우 별도의 처리를 해줄까 고민했었는데, 풀다보니 그럴 필요는 없었다
 - stack에 들어가는 원소를 (막대기 높이, 높이가 등장한 최초 위치)로 정해놓고, pop하면서 같은 원소가 나오면, 최초 등장위치를 바꾼다
 - 마지막 몇 원소들이 top < input이라 계속 쌓여있을 수 있으므로, 이것들 또한 너비에 반영해줘야하니 잔여물 처리가 필요하다
