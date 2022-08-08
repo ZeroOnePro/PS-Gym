@@ -1,5 +1,42 @@
 # Learning About
 
+<!--ts-->
+
+- [Learning About](#learning-about)
+  - [<a href="https://www.acmicpc.net/problem/10828" rel="nofollow">10828 - 스택</a>](#10828---스택)
+    - [1. 해결 핵심 아이디어](#1-해결-핵심-아이디어)
+    - [2. 풀이](#2-풀이)
+  - [<a href="https://www.acmicpc.net/problem/10773" rel="nofollow">10773 - 제로</a>](#10773---제로)
+    - [1. 해결 핵심 아이디어](#1-해결-핵심-아이디어-1)
+    - [2. 풀이](#2-풀이-1)
+  - [<a href="https://www.acmicpc.net/problem/1874" rel="nofollow">1874 - 스택 수열</a>](#1874---스택-수열)
+    - [1. 해결 핵심 아이디어](#1-해결-핵심-아이디어-2)
+    - [2. 풀이](#2-풀이-2)
+  - [<a href="https://www.acmicpc.net/problem/2493" rel="nofollow">2493 - 탑</a>](#2493---탑)
+    - [1. 해결 핵심 아이디어](#1-해결-핵심-아이디어-3)
+    - [2. 풀이](#2-풀이-3)
+    - [3. 구현팁](#3-구현팁)
+  - [<a href="https://www.acmicpc.net/problem/6198" rel="nofollow">6198 - 옥상 정원 꾸미기</a>](#6198---옥상-정원-꾸미기)
+    - [1. 해결 핵심 아이디어](#1-해결-핵심-아이디어-4)
+    - [2. 풀이](#2-풀이-4)
+    - [3. 주의 사항](#3-주의-사항)
+  - [<a href="https://www.acmicpc.net/problem/17298" rel="nofollow">17298 - 오큰수</a>](#17298---오큰수)
+    - [1. 해결 핵심 아이디어](#1-해결-핵심-아이디어-5)
+    - [2. 풀이](#2-풀이-5)
+    - [3. 주의 사항](#3-주의-사항-1)
+    - [4. 구현 팁](#4-구현-팁)
+  - [<a href="https://www.acmicpc.net/problem/3015" rel="nofollow">3015 - 오아시스 재결합</a>](#3015---오아시스-재결합)
+    - [2. 풀이](#2-풀이-6)
+  - [<a href="https://www.acmicpc.net/problem/6549" rel="nofollow">6549 - 히스토그램에서 가장 큰 직사각형</a>](#6549---히스토그램에서-가장-큰-직사각형)
+    - [1. 해결 핵심 아이디어](#1-해결-핵심-아이디어-6)
+    - [2. 풀이](#2-풀이-7)
+    - [3. 주의](#3-주의)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+<!-- Added by: sungminyou, at: 2022년 8월  9일 화요일 06시 51분 03초 KST -->
+
+<!--te-->
+
 ## [10828 - 스택](https://www.acmicpc.net/problem/10828)
 
 ### 1. 해결 핵심 아이디어
