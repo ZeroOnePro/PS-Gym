@@ -2,7 +2,7 @@
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/138/?scale=423&title=progress&width=600&color=babaca&suffix=/423)
+![100%](https://progress-bar.dev/138/?scale=432&title=progress&width=600&color=babaca&suffix=/432)
 
 ## 0x02 How to write basic codes 2
 
@@ -185,7 +185,7 @@
 
 ## 0x0D Simulation
 
-![100%](https://progress-bar.dev/4/?scale=60&title=progress&width=600&color=babaca&suffix=/60)
+![100%](https://progress-bar.dev/4/?scale=61&title=progress&width=600&color=babaca&suffix=/61)
 
 [풀이 링크](../0x0D%20Simulation/exercise)
 
