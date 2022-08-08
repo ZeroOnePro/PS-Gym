@@ -2,7 +2,7 @@
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/138/?scale=432&title=progress&width=600&color=babaca&suffix=/432)
+![100%](https://progress-bar.dev/139/?scale=432&title=progress&width=600&color=babaca&suffix=/432)
 
 ## 0x02 How to write basic codes 2
 
@@ -71,7 +71,7 @@
 
 ## 0x05 Stack
 
-![100%](https://progress-bar.dev/7/?scale=8&title=progress&width=600&color=babaca&suffix=/8)
+![100%](https://progress-bar.dev/8/?scale=8&title=progress&width=600&color=babaca&suffix=/8)
 
 [풀이 링크](../0x05%20Stack/exercise)
 
@@ -81,6 +81,7 @@
 |2493|[탑](https://www.acmicpc.net/problem/2493)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71)|
 |3015|[오아시스 재결합](https://www.acmicpc.net/problem/3015)|<img height="25px" width="25px" src="../scripts/images/15.svg"/><div style="color:#EC9A01">Gold I</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71)|
 |6198|[옥상 정원 꾸미기](https://www.acmicpc.net/problem/6198)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71)|
+|6549|[히스토그램에서 가장 큰 직사각형](https://www.acmicpc.net/problem/6549)|<img height="25px" width="25px" src="../scripts/images/16.svg"/><div style="color:#28E2A4">Platinum V</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [divide and conquer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=24), [segment tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=65), [stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71)|
 |10773|[제로](https://www.acmicpc.net/problem/10773)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102), [stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71)|
 |10828|[스택](https://www.acmicpc.net/problem/10828)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71)|
 |17298|[오큰수](https://www.acmicpc.net/problem/17298)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71)|
@@ -226,10 +227,10 @@
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |1149|[RGB거리](https://www.acmicpc.net/problem/1149)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[dynamic programming](https://www.acmicpc.net/problemset?sort=ac_desc&algo=25)|
-|11659|[구간 합 구하기 4](https://www.acmicpc.net/problem/11659)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[prefix sum](https://www.acmicpc.net/problemset?sort=ac_desc&algo=139)|
 |1463|[1로 만들기](https://www.acmicpc.net/problem/1463)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[dynamic programming](https://www.acmicpc.net/problemset?sort=ac_desc&algo=25)|
 |2579|[계단 오르기](https://www.acmicpc.net/problem/2579)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[dynamic programming](https://www.acmicpc.net/problemset?sort=ac_desc&algo=25)|
 |9095|[1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[dynamic programming](https://www.acmicpc.net/problemset?sort=ac_desc&algo=25)|
+|11659|[구간 합 구하기 4](https://www.acmicpc.net/problem/11659)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[prefix sum](https://www.acmicpc.net/problemset?sort=ac_desc&algo=139)|
 |11726|[2×n 타일링](https://www.acmicpc.net/problem/11726)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[dynamic programming](https://www.acmicpc.net/problemset?sort=ac_desc&algo=25)|
 |12852|[1로 만들기 2](https://www.acmicpc.net/problem/12852)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[dynamic programming](https://www.acmicpc.net/problemset?sort=ac_desc&algo=25), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 
