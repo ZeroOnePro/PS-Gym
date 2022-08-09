@@ -17,11 +17,15 @@ export const generateMarkdown: GenerateMarkdown = (problems, categories) => {
   lodash.map(categories, (value: string[], key: string) => {
     content += `## ${key}\n\n`;
 
-    const workbook_problems = workbook[key.split(" ")[0]];
+    const chapter_to_hex = key.split(" ")[0];
+
+    const workbook_problems = workbook[chapter_to_hex];
 
     content += `![100%](https://progress-bar.dev/${value.length}/?scale=${workbook_problems.length}&title=progress&width=600&color=babaca&suffix=/${workbook_problems.length})\n\n`;
 
     content += `[풀이 링크](../${encodeURI(key)}/exercise)\n\n`;
+
+    content += `[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/${chapter_to_hex}.md)\n\n`;
 
     const categoriezed_problems: ProblemData[] = [];
 
