@@ -1,5 +1,26 @@
 # Learning About
 
+<!--ts-->
+
+- [Learning About](#learning-about)
+  - [<a href="https://www.acmicpc.net/problem/1021" rel="nofollow">1021 - 회전하는 큐</a>](#1021---회전하는-큐)
+    - [1. 해결 핵심 아이디어](#1-해결-핵심-아이디어)
+    - [2. 풀이](#2-풀이)
+  - [<a href="https://www.acmicpc.net/problem/10866" rel="nofollow">10866 - 덱</a>](#10866---덱)
+    - [1. 해결 핵심 아이디어](#1-해결-핵심-아이디어-1)
+    - [2. 풀이](#2-풀이-1)
+  - [<a href="https://www.acmicpc.net/problem/5430" rel="nofollow">5430 - AC</a>](#5430---ac)
+    - [1. 해결 핵심 아이디어](#1-해결-핵심-아이디어-2)
+    - [2. 풀이](#2-풀이-2)
+  - [<a href="https://www.acmicpc.net/problem/11003" rel="nofollow">11003 - 최솟값 찾기</a>](#11003---최솟값-찾기)
+    - [1. 해결 핵심 아이디어](#1-해결-핵심-아이디어-3)
+    - [2. 풀이](#2-풀이-3)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+<!-- Added by: sungminyou, at: 2022년 8월 10일 수요일 02시 08분 00초 KST -->
+
+<!--te-->
+
 ## [1021 - 회전하는 큐](https://www.acmicpc.net/problem/1021)
 
 ### 1. 해결 핵심 아이디어
