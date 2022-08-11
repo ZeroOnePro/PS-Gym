@@ -2,13 +2,15 @@
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/140/?scale=432&title=progress&width=600&color=babaca&suffix=/432)
+![100%](https://progress-bar.dev/141/?scale=432&title=progress&width=600&color=babaca&suffix=/432)
 
 ## 0x02 How to write basic codes 2
 
 ![100%](https://progress-bar.dev/27/?scale=27&title=progress&width=600&color=babaca&suffix=/27)
 
 [풀이 링크](../0x02%20How%20to%20write%20basic%20codes%202/exercise)
+
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x02.md)
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
@@ -46,6 +48,8 @@
 
 [풀이 링크](../0x03%20Array/exercise)
 
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x03.md)
+
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |1475|[방 번호](https://www.acmicpc.net/problem/1475)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102)|
@@ -63,6 +67,8 @@
 
 [풀이 링크](../0x04%20Linked%20List/exercise)
 
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x04.md)
+
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |1158|[요세푸스 문제](https://www.acmicpc.net/problem/1158)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=72)|
@@ -74,6 +80,8 @@
 ![100%](https://progress-bar.dev/8/?scale=8&title=progress&width=600&color=babaca&suffix=/8)
 
 [풀이 링크](../0x05%20Stack/exercise)
+
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x05.md)
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
@@ -92,6 +100,8 @@
 
 [풀이 링크](../0x06%20Queue/exercise)
 
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x06.md)
+
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |2164|[카드2](https://www.acmicpc.net/problem/2164)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=72)|
@@ -104,6 +114,8 @@
 
 [풀이 링크](../0x07%20Deque/exercise)
 
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x07.md)
+
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |1021|[회전하는 큐](https://www.acmicpc.net/problem/1021)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [deque](https://www.acmicpc.net/problemset?sort=ac_desc&algo=73)|
@@ -113,15 +125,18 @@
 
 ## 0x08 Incorrect paif of parentheses
 
-![100%](https://progress-bar.dev/4/?scale=5&title=progress&width=600&color=babaca&suffix=/5)
+![100%](https://progress-bar.dev/5/?scale=5&title=progress&width=600&color=babaca&suffix=/5)
 
 [풀이 링크](../0x08%20Incorrect%20paif%20of%20parentheses/exercise)
+
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x08.md)
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |2504|[괄호의 값](https://www.acmicpc.net/problem/2504)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102), [recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62), [stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71)|
 |3986|[좋은 단어](https://www.acmicpc.net/problem/3986)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71)|
 |4949|[균형잡힌 세상](https://www.acmicpc.net/problem/4949)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71), [string](https://www.acmicpc.net/problemset?sort=ac_desc&algo=158)|
+|9012|[괄호](https://www.acmicpc.net/problem/9012)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71), [string](https://www.acmicpc.net/problemset?sort=ac_desc&algo=158)|
 |10799|[쇠막대기](https://www.acmicpc.net/problem/10799)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71)|
 
 ## 0x09 BFS
@@ -129,6 +144,8 @@
 ![100%](https://progress-bar.dev/21/?scale=30&title=progress&width=600&color=babaca&suffix=/30)
 
 [풀이 링크](../0x09%20BFS/exercise)
+
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x09.md)
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
@@ -160,6 +177,8 @@
 
 [풀이 링크](../0x0B%20Recursive/exercise)
 
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x0B.md)
+
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |1074|[Z](https://www.acmicpc.net/problem/1074)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[divide and conquer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=24), [recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
@@ -178,6 +197,8 @@
 
 [풀이 링크](../0x0C%20Backtracking/exercise)
 
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x0C.md)
+
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |1182|[부분수열의 합](https://www.acmicpc.net/problem/1182)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[backtracking](https://www.acmicpc.net/problemset?sort=ac_desc&algo=5), [bruteforcing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=125)|
@@ -190,6 +211,8 @@
 ![100%](https://progress-bar.dev/4/?scale=61&title=progress&width=600&color=babaca&suffix=/61)
 
 [풀이 링크](../0x0D%20Simulation/exercise)
+
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x0D.md)
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
@@ -204,6 +227,8 @@
 
 [풀이 링크](../0x0E%20Sorting%20I/exercise)
 
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x0E.md)
+
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |11728|[배열 합치기](https://www.acmicpc.net/problem/11728)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
@@ -213,6 +238,8 @@
 ![100%](https://progress-bar.dev/2/?scale=9&title=progress&width=600&color=babaca&suffix=/9)
 
 [풀이 링크](../0x0F%20Sorting%20II/exercise)
+
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x0F.md)
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
@@ -224,6 +251,8 @@
 ![100%](https://progress-bar.dev/7/?scale=44&title=progress&width=600&color=babaca&suffix=/44)
 
 [풀이 링크](../0x10%20Dynamic%20Programming/exercise)
+
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x10.md)
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
@@ -241,6 +270,8 @@
 
 [풀이 링크](../0x11%20Greedy/exercise)
 
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x11.md)
+
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |1026|[보물](https://www.acmicpc.net/problem/1026)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
@@ -253,6 +284,8 @@
 ![100%](https://progress-bar.dev/6/?scale=39&title=progress&width=600&color=babaca&suffix=/39)
 
 [풀이 링크](../0x12%20Mathematics/exercise)
+
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x12.md)
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
@@ -269,6 +302,8 @@
 
 [풀이 링크](../0x13%20Binary%20Search/exercise)
 
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x13.md)
+
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |1654|[랜선 자르기](https://www.acmicpc.net/problem/1654)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[binary search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=12), [parametric search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=170)|
@@ -283,6 +318,8 @@
 
 [풀이 링크](../0x14%20Two%20Pointer/exercise)
 
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x14.md)
+
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |1806|[부분합](https://www.acmicpc.net/problem/1806)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[prefix sum](https://www.acmicpc.net/problemset?sort=ac_desc&algo=139), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
@@ -293,6 +330,8 @@
 ![100%](https://progress-bar.dev/2/?scale=10&title=progress&width=600&color=babaca&suffix=/10)
 
 [풀이 링크](../0x15%20Hash/exercise)
+
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x15.md)
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
@@ -305,6 +344,8 @@
 
 [풀이 링크](../0x16%20Binary%20Search%20Tree/exercise)
 
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x16.md)
+
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |1202|[보석 도둑](https://www.acmicpc.net/problem/1202)|<img height="25px" width="25px" src="../scripts/images/14.svg"/><div style="color:#EC9A01">Gold II</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
@@ -315,6 +356,8 @@
 ![100%](https://progress-bar.dev/3/?scale=8&title=progress&width=600&color=babaca&suffix=/8)
 
 [풀이 링크](../0x17%20Priority%20Queue/exercise)
+
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x17.md)
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
@@ -328,6 +371,8 @@
 
 [풀이 링크](../0x18%20Graph/exercise)
 
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x18.md)
+
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |1260|[DFS와 BFS](https://www.acmicpc.net/problem/1260)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11), [breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127)|
@@ -338,6 +383,8 @@
 ![100%](https://progress-bar.dev/2/?scale=13&title=progress&width=600&color=babaca&suffix=/13)
 
 [풀이 링크](../0x19%20Tree/exercise)
+
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x19.md)
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
@@ -350,6 +397,8 @@
 
 [풀이 링크](../0x1A%20Topological%20Sorting/exercise)
 
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x1A.md)
+
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |2252|[줄 세우기](https://www.acmicpc.net/problem/2252)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [topological sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=78)|
@@ -359,6 +408,8 @@
 ![100%](https://progress-bar.dev/2/?scale=9&title=progress&width=600&color=babaca&suffix=/9)
 
 [풀이 링크](../0x1B%20Minimum%20Spanning%20Tree/exercise)
+
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x1B.md)
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
@@ -371,6 +422,8 @@
 
 [풀이 링크](../0x1C%20Floyd%20Algorithm/exercise)
 
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x1C.md)
+
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |11404|[플로이드](https://www.acmicpc.net/problem/11404)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[floyd–warshall](https://www.acmicpc.net/problemset?sort=ac_desc&algo=31), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7)|
@@ -381,6 +434,8 @@
 ![100%](https://progress-bar.dev/2/?scale=14&title=progress&width=600&color=babaca&suffix=/14)
 
 [풀이 링크](../0x1D%20Dijkstra%20Algorithm/exercise)
+
+[단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x1D.md)
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
