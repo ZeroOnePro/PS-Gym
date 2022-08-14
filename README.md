@@ -38,6 +38,8 @@
 
 yarn generate # 해결한 문제리스트 markdown 파일 생성
 
+yarn keynote # 단원 연습문제 키노트 템플릿 생성
+
 yarn clear # binary 실행 파일 재귀적 제거
 
 yarn insert:toc # README.md 파일에 목차 삽입
