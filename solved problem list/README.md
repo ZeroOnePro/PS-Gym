@@ -123,11 +123,11 @@
 |10866|[덱](https://www.acmicpc.net/problem/10866)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [deque](https://www.acmicpc.net/problemset?sort=ac_desc&algo=73)|
 |11003|[최솟값 찾기](https://www.acmicpc.net/problem/11003)|<img height="25px" width="25px" src="../scripts/images/15.svg"/><div style="color:#EC9A01">Gold I</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [deque](https://www.acmicpc.net/problemset?sort=ac_desc&algo=73), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59)|
 
-## 0x08 Incorrect paif of parentheses
+## 0x08 Incorrect pair of parentheses
 
 ![100%](https://progress-bar.dev/5/?scale=5&title=progress&width=600&color=babaca&suffix=/5)
 
-[풀이 링크](../0x08%20Incorrect%20paif%20of%20parentheses/exercise)
+[풀이 링크](../0x08%20Incorrect%20pair%20of%20parentheses/exercise)
 
 [단원 문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x08.md)
 
