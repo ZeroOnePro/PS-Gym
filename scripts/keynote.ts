@@ -24,7 +24,17 @@ const readInput = async () => {
   return input;
 };
 
-const generateTemplate = (problems: ProblemData[]) => {
+const generateTemplate = (
+  problems: ProblemData[],
+  orderedExercise: number[]
+) => {
+  // 연습 문제 순서 맞추기
+  problems.sort(
+    (a, b) =>
+      orderedExercise.indexOf(a.problemId) -
+      orderedExercise.indexOf(b.problemId)
+  );
+
   let template = "# Learning About\n\n";
 
   problems.map((problem) => {
@@ -41,7 +51,7 @@ const main = async () => {
     const input = await readInput();
     const problemNums = readWorkbookFile(input);
     const problems = await getProblems(problemNums);
-    const template = generateTemplate(problems);
+    const template = generateTemplate(problems, problemNums);
 
     const path = fs
       .readdirSync(__dirname + "/../", { withFileTypes: true })
