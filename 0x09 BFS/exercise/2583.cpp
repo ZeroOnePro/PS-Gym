@@ -55,24 +55,23 @@ int main(void) {
   }
 
   int area = 0;
-  vector<int> widths(102);
+  priority_queue<int, vector<int>, greater<int>> widths;
   for (int r = 0; r < m; ++r) {
     for (int c = 0; c < n; ++c) {
       if (!visited[r][c] && paper[r][c] == 0) {
         q.push({r, c});
         visited[r][c] = true;
-        widths[area] = bfs(q) + 1;
+        widths.push(bfs(q) + 1);
         area += 1;
       }
     }
   }
 
-  sort(widths.begin(), widths.end());
-
   cout << area << '\n';
 
-  for (int w : widths) {
-    if (w != 0) cout << w << ' ';
+  while (!widths.empty()) {
+    cout << widths.top() << ' ';
+    widths.pop();
   }
   return 0;
 }

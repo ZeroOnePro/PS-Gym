@@ -69,7 +69,6 @@ int main(void) {
       }
     }
   }
-  q = queue<pair<int, int>>();
   cout << area << ' ' << color_blindness_area << '\n';
   return 0;
 }

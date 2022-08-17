@@ -31,12 +31,12 @@ enum States {
   CYCLE_IN = -1,
 };
 
-void cycle_bfs(int node) {
+void cycle_dfs(int node) {
   int cur = node;
   while (true) {
     state[cur] = node;
     cur = term[cur];
-    // 이번 실행 때 방문에서 지나간 노드에 도달 했을 경우
+    // 이번 실행 때 방문에서 지나간 노드에 재방문 했을 경우 => 사이클을 만난 것
     if (state[cur] == node) {
       // 사이클 외의 노드를 만날 때까지
       while (state[cur] != CYCLE_IN) {
@@ -65,7 +65,7 @@ int main(void) {
       cin >> term[i];
     }
     for (int i = 1; i <= n; ++i) {
-      if (state[i] == NOT_VISITED) cycle_bfs(i);
+      if (state[i] == NOT_VISITED) cycle_dfs(i);
     }
     int no_term = 0;
     for (int i = 1; i <= n; ++i) {

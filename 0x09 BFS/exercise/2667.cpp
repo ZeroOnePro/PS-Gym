@@ -44,21 +44,21 @@ int main(void) {
     cin >> apartment_map[i];
   }
   int area = 0;
-  vector<int> widths;
+  priority_queue<int, vector<int>, greater<int>> widths;
   for (int i = 0; i < n; ++i) {
     for (int j = 0; j < n; ++j) {
       if (!visited[i][j] && apartment_map[i][j] == '1') {
         q.push({i, j});
         visited[i][j] = true;
-        widths.push_back(bfs(q) + 1);
+        widths.push(bfs(q) + 1);
         area += 1;
       }
     }
   }
-  sort(widths.begin(), widths.end());
   cout << area << '\n';
-  for (int w : widths) {
-    if (w != 0) cout << w << '\n';
+  while (!widths.empty()) {
+    cout << widths.top() << ' ';
+    widths.pop();
   }
   return 0;
 }

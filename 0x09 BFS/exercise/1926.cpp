@@ -36,7 +36,7 @@ int main(void) {
   cin.tie(nullptr);
   queue<pair<int, int>> q;
   int cnt = 0;
-  int maxWidth = 0;
+  int max_width = 0;
   cin >> n >> m;
   for (int i = 0; i < n; ++i) {
     for (int j = 0; j < m; ++j) {
@@ -49,11 +49,11 @@ int main(void) {
         visited[i][j] = true;
         q.push({i, j});
         int width = bfs(q);
-        if (maxWidth < width) maxWidth = width;
+        max_width = max(width, max_width);
         cnt++;
       }
     }
   }
-  cout << cnt << '\n' << maxWidth;
+  cout << cnt << '\n' << max_width;
   return 0;
 }

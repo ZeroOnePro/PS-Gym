@@ -14,7 +14,7 @@ int dy[4] = {0, 1, 0, -1};
 
 bool check(int nx, int ny) { return (nx < 0 || nx >= n || ny < 0 || ny >= m); }
 
-void melt_simulation() {
+void melt_simulation(void) {
   int ocean[303][303] = {0};
   for (int row = 0; row < n; row++) {
     for (int col = 0; col < m; col++) {

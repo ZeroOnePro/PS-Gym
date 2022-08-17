@@ -23,7 +23,7 @@ int bfs(queue<tuple<int, int, int>>& q) {
       int nx = x + dx[dir];
       int ny = y + dy[dir];
       if (nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
-      // 벽 아직 안 부쉈거나 부순 후
+      // 벽 아직 안 부쉈거나(broken = 0) 부순 후(broken = 1)
       if (building[nx][ny] == '0' && dist[broken][nx][ny] == -1) {
         q.push({broken, nx, ny});
         dist[broken][nx][ny] = dist[broken][x][y] + 1;
