@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 
-chapters = ["0x{:02X}".format(i) for i in range(2, 31)]
+chapters = ["0x{:02X}".format(i) for i in range(2, 32)]
 
 workbook = {}
 
