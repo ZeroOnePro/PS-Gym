@@ -2,7 +2,7 @@
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/146/?scale=432&title=progress&width=600&color=babaca&suffix=/432)
+![100%](https://progress-bar.dev/147/?scale=432&title=progress&width=600&color=babaca&suffix=/432)
 
 ## 0x02 How to write basic codes 2
 
@@ -141,7 +141,7 @@
 
 ## 0x09 BFS
 
-![100%](https://progress-bar.dev/26/?scale=30&title=progress&width=600&color=babaca&suffix=/30)
+![100%](https://progress-bar.dev/27/?scale=30&title=progress&width=600&color=babaca&suffix=/30)
 
 [풀이 링크](../0x09%20BFS/exercise)
 
@@ -175,6 +175,7 @@
 |14442|[벽 부수고 이동하기 2](https://www.acmicpc.net/problem/14442)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |16920|[확장 게임](https://www.acmicpc.net/problem/16920)|<img height="25px" width="25px" src="../scripts/images/14.svg"/><div style="color:#EC9A01">Gold II</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |16933|[벽 부수고 이동하기 3](https://www.acmicpc.net/problem/16933)|<img height="25px" width="25px" src="../scripts/images/15.svg"/><div style="color:#EC9A01">Gold I</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
+|17071|[숨바꼭질 5](https://www.acmicpc.net/problem/17071)|<img height="25px" width="25px" src="../scripts/images/16.svg"/><div style="color:#28E2A4">Platinum V</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 
 ## 0x0B Recursive
 
