@@ -2,7 +2,7 @@
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/147/?scale=432&title=progress&width=600&color=babaca&suffix=/432)
+![100%](https://progress-bar.dev/148/?scale=432&title=progress&width=600&color=babaca&suffix=/432)
 
 ## 0x02 How to write basic codes 2
 
@@ -141,7 +141,7 @@
 
 ## 0x09 BFS
 
-![100%](https://progress-bar.dev/27/?scale=30&title=progress&width=600&color=babaca&suffix=/30)
+![100%](https://progress-bar.dev/28/?scale=30&title=progress&width=600&color=babaca&suffix=/30)
 
 [풀이 링크](../0x09%20BFS/exercise)
 
@@ -167,6 +167,7 @@
 |7562|[나이트의 이동](https://www.acmicpc.net/problem/7562)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |7569|[토마토](https://www.acmicpc.net/problem/7569)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |7576|[토마토](https://www.acmicpc.net/problem/7576)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
+|9328|[열쇠](https://www.acmicpc.net/problem/9328)|<img height="25px" width="25px" src="../scripts/images/15.svg"/><div style="color:#EC9A01">Gold I</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11), [implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102)|
 |9466|[텀 프로젝트](https://www.acmicpc.net/problem/9466)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |10026|[적록색약](https://www.acmicpc.net/problem/10026)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |11967|[불켜기](https://www.acmicpc.net/problem/11967)|<img height="25px" width="25px" src="../scripts/images/14.svg"/><div style="color:#EC9A01">Gold II</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
@@ -208,9 +209,9 @@
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |1182|[부분수열의 합](https://www.acmicpc.net/problem/1182)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[backtracking](https://www.acmicpc.net/problemset?sort=ac_desc&algo=5), [bruteforcing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=125)|
-|9663|[N-Queen](https://www.acmicpc.net/problem/9663)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[backtracking](https://www.acmicpc.net/problemset?sort=ac_desc&algo=5), [bruteforcing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=125)|
 |15649|[N과 M (1)](https://www.acmicpc.net/problem/15649)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[backtracking](https://www.acmicpc.net/problemset?sort=ac_desc&algo=5)|
 |15650|[N과 M (2)](https://www.acmicpc.net/problem/15650)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[backtracking](https://www.acmicpc.net/problemset?sort=ac_desc&algo=5)|
+|9663|[N-Queen](https://www.acmicpc.net/problem/9663)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[backtracking](https://www.acmicpc.net/problemset?sort=ac_desc&algo=5), [bruteforcing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=125)|
 
 ## 0x0D Simulation
 
