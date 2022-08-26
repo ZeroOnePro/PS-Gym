@@ -35,7 +35,11 @@ export const generateMarkdown: GenerateMarkdown = (problems, categories) => {
       }
     });
 
-    let table = `|번호|문제|난이도|태그|\n|:---:|:---:|:---:|:---:|\n`;
+    let table = "<details>\n";
+    table += "<summary>문제 리스트</summary>\n";
+    table += "<div>\n\n";
+
+    table += `|번호|문제|난이도|태그|\n|:---:|:---:|:---:|:---:|\n`;
 
     lodash.map(categoriezed_problems, (problem) => {
       table += `|${problem.problemId}|[${
@@ -58,8 +62,10 @@ export const generateMarkdown: GenerateMarkdown = (problems, categories) => {
       table += `${tagNames}|\n`;
     });
 
+    table += "\n\n<div>\n";
+    table += "</details>\n";
     content += table;
-    content += "\n";
+    content += "\n\n";
   });
 
   fs.writeFileSync(__dirname + `/../solved problem list/README.md`, content);
