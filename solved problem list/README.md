@@ -2,7 +2,7 @@
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/150/?scale=432&title=progress&width=600&color=babaca&suffix=/432)
+![100%](https://progress-bar.dev/151/?scale=432&title=progress&width=600&color=babaca&suffix=/432)
 
 ## 0x02 How to write basic codes 2
 
@@ -254,7 +254,7 @@
 
 ## 0x0B Recursive
 
-![100%](https://progress-bar.dev/9/?scale=10&title=progress&width=600&color=babaca&suffix=/10)
+![100%](https://progress-bar.dev/10/?scale=10&title=progress&width=600&color=babaca&suffix=/10)
 
 [풀이 링크](../0x0B%20Recursive/exercise)
 
@@ -274,6 +274,7 @@
 |2448|[별 찍기 - 11](https://www.acmicpc.net/problem/2448)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[divide and conquer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=24), [recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
 |2630|[색종이 만들기](https://www.acmicpc.net/problem/2630)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[divide and conquer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=24), [recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
 |11729|[하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
+|14956|[Philosopher’s Walk](https://www.acmicpc.net/problem/14956)|<img height="25px" width="25px" src="../scripts/images/14.svg"/><div style="color:#EC9A01">Gold II</div>|[divide and conquer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=24), [recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
 |17478|[재귀함수가 뭔가요?](https://www.acmicpc.net/problem/17478)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102), [recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
 
 
