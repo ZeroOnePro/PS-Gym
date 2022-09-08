@@ -2,7 +2,7 @@
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/161/?scale=432&title=progress&width=600&color=babaca&suffix=/432)
+![100%](https://progress-bar.dev/163/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
 
 ## 0x02 How to write basic codes 2
 
@@ -284,7 +284,7 @@
 
 ## 0x0C Backtracking
 
-![100%](https://progress-bar.dev/14/?scale=20&title=progress&width=600&color=babaca&suffix=/20)
+![100%](https://progress-bar.dev/16/?scale=20&title=progress&width=600&color=babaca&suffix=/20)
 
 [풀이 링크](../0x0C%20Backtracking/exercise)
 
@@ -297,6 +297,8 @@
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |1182|[부분수열의 합](https://www.acmicpc.net/problem/1182)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[backtracking](https://www.acmicpc.net/problemset?sort=ac_desc&algo=5), [bruteforcing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=125)|
+|1759|[암호 만들기](https://www.acmicpc.net/problem/1759)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[backtracking](https://www.acmicpc.net/problemset?sort=ac_desc&algo=5), [bruteforcing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=125), [combinatorics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=6), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124)|
+|6603|[로또](https://www.acmicpc.net/problem/6603)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[backtracking](https://www.acmicpc.net/problemset?sort=ac_desc&algo=5), [combinatorics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=6), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
 |9663|[N-Queen](https://www.acmicpc.net/problem/9663)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[backtracking](https://www.acmicpc.net/problemset?sort=ac_desc&algo=5), [bruteforcing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=125)|
 |15649|[N과 M (1)](https://www.acmicpc.net/problem/15649)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[backtracking](https://www.acmicpc.net/problemset?sort=ac_desc&algo=5)|
 |15650|[N과 M (2)](https://www.acmicpc.net/problem/15650)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[backtracking](https://www.acmicpc.net/problemset?sort=ac_desc&algo=5)|
