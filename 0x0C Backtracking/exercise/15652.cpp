@@ -3,7 +3,6 @@
 using namespace std;
 
 int n, m;
-bool is_used[10];
 int seq[10];
 
 void print() {
@@ -17,11 +16,8 @@ void make_seq(int cur) {
     return;
   }
   for (int i = 1; i <= n; ++i) {
-    if (is_used[i]) continue;
-    is_used[i] = true;
     seq[cur] = i;
-    if (cur == 0 || cur > 0 && seq[cur - 1] < seq[cur]) make_seq(cur + 1);
-    is_used[i] = false;
+    if (cur == 0 || cur > 0 && seq[cur - 1] <= seq[cur]) make_seq(cur + 1);
   }
 }
 
