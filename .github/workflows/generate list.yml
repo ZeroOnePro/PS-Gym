@@ -16,10 +16,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Set up Python 3.9
-      - uses: actions/setup-python@v4
+        uses: actions/setup-python@v4
         with:
           python-version: "3.9"
           cache: pip
+
       - name: install dependencies
         run: pip install -r requirements.txt
 
@@ -48,11 +49,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Set Up Node.js ${{ matrix.node-version }}
-      - uses: actions/setup-node@v3
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
           cache: "yarn"
-      - name: "Install dependencies"
+
+      - name: install dependencies
         run: yarn install
 
       - name: Generate markdown file
