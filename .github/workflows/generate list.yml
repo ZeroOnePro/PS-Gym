@@ -52,7 +52,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "yarn"
-      - run: yarn install
+      - name: "Install dependencies"
+        run: yarn install
 
       - name: Generate markdown file
         run: yarn generate
