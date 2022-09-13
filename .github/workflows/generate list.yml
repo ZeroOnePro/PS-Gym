@@ -20,16 +20,11 @@ jobs:
         with:
           python-version: "3.9"
           cache: pip
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - run: pip install -r requirements.txt
 
       - name: generate workbook
-        run: |
-          python3 scripts/workbook.py
+        run: python3 scripts/workbook.py
 
-      # Commits all changed files to the repository
       - name: Commit to the repo
         run: |
           git config --global user.name 'github-actions[bot]'
@@ -48,24 +43,19 @@ jobs:
     strategy:
       matrix:
         node-version: [16.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
       - uses: actions/checkout@v3
-
-      # install packages
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+      - name: Set Up Node.js ${{ matrix.node-version }}
+      - uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
           cache: "yarn"
       - run: yarn install
 
-      # generate markdown file
       - name: Generate markdown file
         run: yarn generate
 
-      # Commits all changed files to the repository
       - name: Commit to the repo
         run: |
           git config --global user.name "github-actions[bot]"
