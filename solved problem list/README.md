@@ -2,7 +2,7 @@
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/165/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
+![100%](https://progress-bar.dev/166/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
 
 ## 0x02 How to write basic codes 2
 
@@ -284,7 +284,7 @@
 
 ## 0x0C Backtracking
 
-![100%](https://progress-bar.dev/18/?scale=20&title=progress&width=600&color=babaca&suffix=/20)
+![100%](https://progress-bar.dev/19/?scale=20&title=progress&width=600&color=babaca&suffix=/20)
 
 [풀이 링크](../0x0C%20Backtracking/exercise)
 
@@ -314,6 +314,7 @@
 |15665|[N과 M (11)](https://www.acmicpc.net/problem/15665)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[backtracking](https://www.acmicpc.net/problemset?sort=ac_desc&algo=5)|
 |15666|[N과 M (12)](https://www.acmicpc.net/problem/15666)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[backtracking](https://www.acmicpc.net/problemset?sort=ac_desc&algo=5)|
 |16987|[계란으로 계란치기](https://www.acmicpc.net/problem/16987)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[backtracking](https://www.acmicpc.net/problemset?sort=ac_desc&algo=5), [bruteforcing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=125)|
+|18809|[Gaaaaaaaaaarden](https://www.acmicpc.net/problem/18809)|<img height="25px" width="25px" src="../scripts/images/15.svg"/><div style="color:#EC9A01">Gold I</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [bruteforcing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=125), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11), [implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102), [simulation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=141)|
 
 
 <div>
