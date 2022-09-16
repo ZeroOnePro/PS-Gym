@@ -3,7 +3,9 @@
 using namespace std;
 
 int n, cnt;
-bool is_used[3][40];  // 1차원 열, 2차원 오른 대각, 3차원 왼 대각
+// is_used 배열을 3개 활용해서 하나는 열, 하나는 왼대각. 하나는 오른대각에 놓일
+// 수 있는지 없는지 판단
+bool is_used[3][40];
 
 void n_queen(int row) {
   // n-1까지 완성
