@@ -2,7 +2,7 @@
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/167/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
+![100%](https://progress-bar.dev/174/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
 
 ## 0x02 How to write basic codes 2
 
@@ -348,7 +348,7 @@
 
 ## 0x0E Sorting I
 
-![100%](https://progress-bar.dev/1/?scale=8&title=progress&width=600&color=babaca&suffix=/8)
+![100%](https://progress-bar.dev/8/?scale=8&title=progress&width=600&color=babaca&suffix=/8)
 
 [풀이 링크](../0x0E%20Sorting%20I/exercise)
 
@@ -360,7 +360,14 @@
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
+|2750|[수 정렬하기](https://www.acmicpc.net/problem/2750)|<img height="25px" width="25px" src="../scripts/images/4.svg"/><div style="color:#AD5600">Bronze II</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97), [implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102)|
+|2751|[수 정렬하기 2](https://www.acmicpc.net/problem/2751)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
+|10814|[나이순 정렬](https://www.acmicpc.net/problem/10814)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
+|10989|[수 정렬하기 3](https://www.acmicpc.net/problem/10989)|<img height="25px" width="25px" src="../scripts/images/5.svg"/><div style="color:#AD5600">Bronze I</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
+|11650|[좌표 정렬하기](https://www.acmicpc.net/problem/11650)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
+|11651|[좌표 정렬하기 2](https://www.acmicpc.net/problem/11651)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
 |11728|[배열 합치기](https://www.acmicpc.net/problem/11728)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
+|11931|[수 정렬하기 4](https://www.acmicpc.net/problem/11931)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
 
 
 <div>
