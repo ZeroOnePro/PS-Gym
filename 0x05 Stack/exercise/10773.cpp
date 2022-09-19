@@ -2,29 +2,23 @@
 
 using namespace std;
 
-int main(void)
-{
+int main(void) {
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
   stack<int> s;
   int sum = 0;
   int k;
   cin >> k;
-  while (k--)
-  {
+  while (k--) {
     int money;
     cin >> money;
-    if (money)
-    {
+    if (money) {
       s.push(money);
-    }
-    else
-    {
+    } else {
       s.pop();
     }
   }
-  while (!s.empty())
-  {
+  while (!s.empty()) {
     sum += s.top();
     s.pop();
   }

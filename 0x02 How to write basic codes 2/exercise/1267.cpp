@@ -2,22 +2,19 @@
 
 using namespace std;
 
-int main(void)
-{
+int main(void) {
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
   int n;
   vector<int> calls;
   cin >> n;
-  while (n--)
-  {
+  while (n--) {
     int call;
     cin >> call;
     calls.push_back(call);
   }
   int y = 0, m = 0;
-  for (int call : calls)
-  {
+  for (int call : calls) {
     y += ((call / 30) + 1) * 10;
     m += ((call / 60) + 1) * 15;
   }

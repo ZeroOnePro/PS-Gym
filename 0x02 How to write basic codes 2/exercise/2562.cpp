@@ -2,24 +2,20 @@
 
 using namespace std;
 
-int main(void)
-{
+int main(void) {
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
   int maximum = 0, index = 0;
   ;
-  for (int i = 1; i <= 9; ++i)
-  {
+  for (int i = 1; i <= 9; ++i) {
     int input;
     cin >> input;
-    if (maximum < input)
-    {
+    if (maximum < input) {
       maximum = input;
       index = i;
     }
   }
-  cout << maximum << '\n'
-       << index;
+  cout << maximum << '\n' << index;
   return 0;
 }
 

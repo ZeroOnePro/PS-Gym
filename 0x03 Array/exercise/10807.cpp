@@ -2,23 +2,18 @@
 
 using namespace std;
 
-int main(void)
-{
+int main(void) {
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
   int n, v;
   cin >> n;
   vector<int> freq(201);
-  for (int i = 0; i < n; ++i)
-  {
+  for (int i = 0; i < n; ++i) {
     int input;
     cin >> input;
-    if (input < 0)
-    {
+    if (input < 0) {
       freq[input + 201] += 1;
-    }
-    else
-    {
+    } else {
       freq[input] += 1;
     }
   }

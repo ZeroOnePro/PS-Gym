@@ -2,20 +2,16 @@
 
 using namespace std;
 
-int main(void)
-{
+int main(void) {
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
   int n;
   cin >> n;
-  for (int i = 1; i <= n; ++i)
-  {
-    for (int k = 1; k < i; ++k)
-    {
+  for (int i = 1; i <= n; ++i) {
+    for (int k = 1; k < i; ++k) {
       cout << ' ';
     }
-    for (int j = n - i + 1; j > 0; --j)
-    {
+    for (int j = n - i + 1; j > 0; --j) {
       cout << '*';
     }
     cout << '\n';
