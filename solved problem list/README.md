@@ -348,7 +348,7 @@
 
 ## 0x0E Sorting I
 
-![100%](https://progress-bar.dev/7/?scale=8&title=progress&width=600&color=babaca&suffix=/8)
+![100%](https://progress-bar.dev/8/?scale=8&title=progress&width=600&color=babaca&suffix=/8)
 
 [풀이 링크](../0x0E%20Sorting%20I/exercise)
 
@@ -367,6 +367,7 @@
 |11651|[좌표 정렬하기 2](https://www.acmicpc.net/problem/11651)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
 |11728|[배열 합치기](https://www.acmicpc.net/problem/11728)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
 |11931|[수 정렬하기 4](https://www.acmicpc.net/problem/11931)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
+|15688|[수 정렬하기 5](https://www.acmicpc.net/problem/15688)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
 
 
 <div>
@@ -375,7 +376,7 @@
 
 ## 0x0F Sorting II
 
-![100%](https://progress-bar.dev/10/?scale=9&title=progress&width=600&color=babaca&suffix=/9)
+![100%](https://progress-bar.dev/9/?scale=9&title=progress&width=600&color=babaca&suffix=/9)
 
 [풀이 링크](../0x0F%20Sorting%20II/exercise)
 
@@ -396,7 +397,6 @@
 |10825|[국영수](https://www.acmicpc.net/problem/10825)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
 |11652|[카드](https://www.acmicpc.net/problem/11652)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [set / map by hashing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=136), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
 |11656|[접미사 배열](https://www.acmicpc.net/problem/11656)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97), [string](https://www.acmicpc.net/problemset?sort=ac_desc&algo=158)|
-|15688|[수 정렬하기 5](https://www.acmicpc.net/problem/15688)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
 
 
 <div>
