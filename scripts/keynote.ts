@@ -1,5 +1,5 @@
 import { getProblems } from "./data";
-import { fs, readline } from "./index";
+import { fs, readline, exec } from "./index";
 import { ProblemData } from "./type";
 
 const readWorkbookFile = (chapter_to_hex: string) => {
@@ -62,6 +62,17 @@ const main = async () => {
     const fullPath = `${path[0].name}/exercise/README.md`;
 
     fs.writeFileSync(__dirname + `/../${fullPath}`, template);
+
+    exec(
+      `echo ${__dirname + `/../${fullPath}`} | yarn insert:toc`,
+      (err, stdout, stderr) => {
+        if (err) console.log(err);
+        else {
+          console.log(`stdout: ${stdout}`);
+          console.log(`stderr: ${stderr}`);
+        }
+      }
+    );
   } catch (error) {
     console.log(error);
   }
