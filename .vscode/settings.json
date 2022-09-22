@@ -4,7 +4,7 @@
   },
   "editor.formatOnSave": true,
   "clang-format.executable": "/opt/homebrew/bin/clang-format",
-  "clang-format.style": "google",
+  "clang-format.style": "",
   "clang-format.language.c.enable": true,
   "[c]": {
     "editor.defaultFormatter": "xaver.clang-format",
@@ -26,5 +26,16 @@
   },
   "explorer.openEditors.sortOrder": "editorOrder",
   "explorer.sortOrder": "default",
-  "explorer.sortOrderLexicographicOptions": "unicode"
+  "explorer.sortOrderLexicographicOptions": "unicode",
+  "clang-format.language.typescript.fallbackStyle": "",
+  "clang-format.language.typescript.enable": false,
+  "clang-format.language.proto.enable": false,
+  "clang-format.language.objective-cpp.enable": false,
+  "clang-format.language.objective-c.enable": false,
+  "clang-format.language.javascript.enable": false,
+  "clang-format.language.java.enable": false,
+  "clang-format.language.glsl.enable": false,
+  "clang-format.language.cuda.enable": false,
+  "clang-format.language.apex.enable": false,
+  "clang-format.fallbackStyle": "Google"
 }
