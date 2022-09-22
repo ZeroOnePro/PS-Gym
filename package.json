@@ -6,7 +6,7 @@
   "scripts": {
     "generate": "ts-node ./scripts/generate.ts",
     "keynote": "ts-node ./scripts/keynote.ts",
-    "clear": "sh ./scripts/remove_binaries.sh",
+    "clear": "sh ./scripts/remove.unused.sh",
     "insert:toc": "sh ./scripts/insert.toc.sh",
     "update:toc": "sh ./scripts/update.toc.sh",
     "clear:backup": "sh ./scripts/delete.backup.sh"
