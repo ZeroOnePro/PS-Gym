@@ -22,7 +22,8 @@
   "files.associations": {
     "algorithm": "cpp",
     "forward_list": "cpp",
-    "list": "cpp"
+    "list": "cpp",
+    "numeric": "cpp"
   },
   "explorer.openEditors.sortOrder": "editorOrder",
   "explorer.sortOrder": "default",
