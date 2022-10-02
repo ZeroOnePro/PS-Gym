@@ -1,5 +1,5 @@
 import { colorList } from "./constant";
-import { fs, lodash } from "./index";
+import { fs, lodash, exec } from "./index";
 import levelList from "./lank";
 import { GenerateMarkdown, ProblemData } from "./type";
 
@@ -68,7 +68,20 @@ export const generateMarkdown: GenerateMarkdown = (problems, categories) => {
     content += "\n\n";
   });
 
-  fs.writeFileSync(__dirname + `/../solved problem list/README.md`, content);
+  const fullPath = `solved problem list/README.md`;
+
+  fs.writeFileSync(__dirname + `/../${fullPath}`, content);
+
+  exec(
+    `echo ${__dirname + `/../${fullPath}`} | yarn insert:toc`,
+    (err, stdout, stderr) => {
+      if (err) console.log(err);
+      else {
+        console.log(`stdout: ${stdout}`);
+        console.log(`stderr: ${stderr}`);
+      }
+    }
+  );
 
   console.log("해결한 문제리스트를 업데이트 하였습니다.");
 };
