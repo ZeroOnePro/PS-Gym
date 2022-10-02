@@ -1,4 +1,39 @@
 # 해결한 문제리스트
+<!--ts-->
+* [해결한 문제리스트](#해결한-문제리스트)
+   * [0x02 How to write basic codes 2](#0x02-how-to-write-basic-codes-2)
+   * [0x03 Array](#0x03-array)
+   * [0x04 Linked List](#0x04-linked-list)
+   * [0x05 Stack](#0x05-stack)
+   * [0x06 Queue](#0x06-queue)
+   * [0x07 Deque](#0x07-deque)
+   * [0x08 Incorrect pair of parentheses](#0x08-incorrect-pair-of-parentheses)
+   * [0x09 BFS](#0x09-bfs)
+   * [0x0B Recursive](#0x0b-recursive)
+   * [0x0C Backtracking](#0x0c-backtracking)
+   * [0x0D Simulation](#0x0d-simulation)
+   * [0x0E Sorting I](#0x0e-sorting-i)
+   * [0x0F Sorting II](#0x0f-sorting-ii)
+   * [0x10 Dynamic Programming](#0x10-dynamic-programming)
+   * [0x11 Greedy](#0x11-greedy)
+   * [0x12 Mathematics](#0x12-mathematics)
+   * [0x13 Binary Search](#0x13-binary-search)
+   * [0x14 Two Pointer](#0x14-two-pointer)
+   * [0x15 Hash](#0x15-hash)
+   * [0x16 Binary Search Tree](#0x16-binary-search-tree)
+   * [0x17 Priority Queue](#0x17-priority-queue)
+   * [0x18 Graph](#0x18-graph)
+   * [0x19 Tree](#0x19-tree)
+   * [0x1A Topological Sorting](#0x1a-topological-sorting)
+   * [0x1B Minimum Spanning Tree](#0x1b-minimum-spanning-tree)
+   * [0x1C Floyd Algorithm](#0x1c-floyd-algorithm)
+   * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+<!-- Added by: sungminyou, at: 2022년 10월  3일 월요일 01시 49분 26초 KST -->
+
+<!--te-->
+
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
