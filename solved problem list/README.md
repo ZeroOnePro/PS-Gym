@@ -29,14 +29,14 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Sun Oct  2 17:03:49 UTC 2022 -->
+<!-- Added by: runner, at: Tue Oct  4 07:07:41 UTC 2022 -->
 
 <!--te-->
 
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/217/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
+![100%](https://progress-bar.dev/218/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
 
 ## 0x02 How to write basic codes 2
 
@@ -439,7 +439,7 @@
 
 ## 0x10 Dynamic Programming
 
-![100%](https://progress-bar.dev/43/?scale=44&title=progress&width=600&color=babaca&suffix=/44)
+![100%](https://progress-bar.dev/44/?scale=44&title=progress&width=600&color=babaca&suffix=/44)
 
 [풀이 링크](../0x10%20Dynamic%20Programming/exercise)
 
@@ -469,6 +469,7 @@
 |2293|[동전 1](https://www.acmicpc.net/problem/2293)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[dynamic programming](https://www.acmicpc.net/problemset?sort=ac_desc&algo=25)|
 |2294|[동전 2](https://www.acmicpc.net/problem/2294)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[dynamic programming](https://www.acmicpc.net/problemset?sort=ac_desc&algo=25)|
 |2302|[극장 좌석](https://www.acmicpc.net/problem/2302)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[dynamic programming](https://www.acmicpc.net/problemset?sort=ac_desc&algo=25)|
+|2482|[색상환](https://www.acmicpc.net/problem/2482)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[dynamic programming](https://www.acmicpc.net/problemset?sort=ac_desc&algo=25)|
 |2579|[계단 오르기](https://www.acmicpc.net/problem/2579)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[dynamic programming](https://www.acmicpc.net/problemset?sort=ac_desc&algo=25)|
 |2748|[피보나치 수 2](https://www.acmicpc.net/problem/2748)|<img height="25px" width="25px" src="../scripts/images/5.svg"/><div style="color:#AD5600">Bronze I</div>|[dynamic programming](https://www.acmicpc.net/problemset?sort=ac_desc&algo=25), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124)|
 |4883|[삼각 그래프](https://www.acmicpc.net/problem/4883)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[dynamic programming](https://www.acmicpc.net/problemset?sort=ac_desc&algo=25)|
@@ -540,10 +541,10 @@
 |:---:|:---:|:---:|:---:|
 |1929|[소수 구하기](https://www.acmicpc.net/problem/1929)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [number theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=95), [primality test](https://www.acmicpc.net/problemset?sort=ac_desc&algo=9), [sieve of eratosthenes](https://www.acmicpc.net/problemset?sort=ac_desc&algo=67)|
 |1978|[소수 찾기](https://www.acmicpc.net/problem/1978)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [number theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=95), [primality test](https://www.acmicpc.net/problemset?sort=ac_desc&algo=9), [sieve of eratosthenes](https://www.acmicpc.net/problemset?sort=ac_desc&algo=67)|
-|6064|[카잉 달력](https://www.acmicpc.net/problem/6064)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[chinese remainder theorem](https://www.acmicpc.net/problemset?sort=ac_desc&algo=19), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [number theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=95)|
 |11050|[이항 계수 1](https://www.acmicpc.net/problem/11050)|<img height="25px" width="25px" src="../scripts/images/5.svg"/><div style="color:#AD5600">Bronze I</div>|[combinatorics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=6), [implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124)|
 |11051|[이항 계수 2](https://www.acmicpc.net/problem/11051)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[combinatorics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=6), [dynamic programming](https://www.acmicpc.net/problemset?sort=ac_desc&algo=25), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124)|
 |11653|[소인수분해](https://www.acmicpc.net/problem/11653)|<img height="25px" width="25px" src="../scripts/images/5.svg"/><div style="color:#AD5600">Bronze I</div>|[mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [number theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=95), [primality test](https://www.acmicpc.net/problemset?sort=ac_desc&algo=9)|
+|6064|[카잉 달력](https://www.acmicpc.net/problem/6064)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[chinese remainder theorem](https://www.acmicpc.net/problemset?sort=ac_desc&algo=19), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [number theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=95)|
 
 
 <div>
