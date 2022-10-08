@@ -29,14 +29,14 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Tue Oct  4 07:07:41 UTC 2022 -->
+<!-- Added by: runner, at: Sat Oct  8 14:14:33 UTC 2022 -->
 
 <!--te-->
 
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/218/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
+![100%](https://progress-bar.dev/222/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
 
 ## 0x02 How to write basic codes 2
 
@@ -256,7 +256,7 @@
 |1926|[그림](https://www.acmicpc.net/problem/1926)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |2146|[다리 만들기](https://www.acmicpc.net/problem/2146)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |2178|[미로 탐색](https://www.acmicpc.net/problem/2178)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
-|2206|[벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
+|2206|[벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |2468|[안전 영역](https://www.acmicpc.net/problem/2468)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [bruteforcing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=125), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |2573|[빙산](https://www.acmicpc.net/problem/2573)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11), [implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102)|
 |2583|[영역 구하기](https://www.acmicpc.net/problem/2583)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
@@ -307,7 +307,7 @@
 |11729|[하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
 |14956|[Philosopher’s Walk](https://www.acmicpc.net/problem/14956)|<img height="25px" width="25px" src="../scripts/images/14.svg"/><div style="color:#EC9A01">Gold II</div>|[divide and conquer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=24), [recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
 |17478|[재귀함수가 뭔가요?](https://www.acmicpc.net/problem/17478)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102), [recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
-|2447|[별 찍기 - 10](https://www.acmicpc.net/problem/2447)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[divide and conquer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=24), [recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
+|2447|[별 찍기 - 10](https://www.acmicpc.net/problem/2447)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[divide and conquer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=24), [recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
 |2448|[별 찍기 - 11](https://www.acmicpc.net/problem/2448)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
 |2630|[색종이 만들기](https://www.acmicpc.net/problem/2630)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[divide and conquer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=24), [recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
 
@@ -503,7 +503,7 @@
 
 ## 0x11 Greedy
 
-![100%](https://progress-bar.dev/4/?scale=17&title=progress&width=600&color=babaca&suffix=/17)
+![100%](https://progress-bar.dev/8/?scale=17&title=progress&width=600&color=babaca&suffix=/17)
 
 [풀이 링크](../0x11%20Greedy/exercise)
 
@@ -516,9 +516,13 @@
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |1026|[보물](https://www.acmicpc.net/problem/1026)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
+|1541|[잃어버린 괄호](https://www.acmicpc.net/problem/1541)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [parsing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=96), [string](https://www.acmicpc.net/problemset?sort=ac_desc&algo=158)|
 |1931|[회의실 배정](https://www.acmicpc.net/problem/1931)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
 |2217|[로프](https://www.acmicpc.net/problem/2217)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
+|2457|[공주님의 정원](https://www.acmicpc.net/problem/2457)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
 |11047|[동전 0](https://www.acmicpc.net/problem/11047)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33)|
+|11399|[ATM](https://www.acmicpc.net/problem/11399)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
+|11501|[주식](https://www.acmicpc.net/problem/11501)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33)|
 
 
 <div>
@@ -539,12 +543,12 @@
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
+|11050|[이항 계수 1](https://www.acmicpc.net/problem/11050)|<img height="25px" width="25px" src="../scripts/images/5.svg"/><div style="color:#AD5600">Bronze I</div>|[combinatorics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=6), [implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124)|
 |1929|[소수 구하기](https://www.acmicpc.net/problem/1929)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [number theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=95), [primality test](https://www.acmicpc.net/problemset?sort=ac_desc&algo=9), [sieve of eratosthenes](https://www.acmicpc.net/problemset?sort=ac_desc&algo=67)|
 |1978|[소수 찾기](https://www.acmicpc.net/problem/1978)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [number theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=95), [primality test](https://www.acmicpc.net/problemset?sort=ac_desc&algo=9), [sieve of eratosthenes](https://www.acmicpc.net/problemset?sort=ac_desc&algo=67)|
-|11050|[이항 계수 1](https://www.acmicpc.net/problem/11050)|<img height="25px" width="25px" src="../scripts/images/5.svg"/><div style="color:#AD5600">Bronze I</div>|[combinatorics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=6), [implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124)|
+|6064|[카잉 달력](https://www.acmicpc.net/problem/6064)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[chinese remainder theorem](https://www.acmicpc.net/problemset?sort=ac_desc&algo=19), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [number theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=95)|
 |11051|[이항 계수 2](https://www.acmicpc.net/problem/11051)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[combinatorics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=6), [dynamic programming](https://www.acmicpc.net/problemset?sort=ac_desc&algo=25), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124)|
 |11653|[소인수분해](https://www.acmicpc.net/problem/11653)|<img height="25px" width="25px" src="../scripts/images/5.svg"/><div style="color:#AD5600">Bronze I</div>|[mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [number theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=95), [primality test](https://www.acmicpc.net/problemset?sort=ac_desc&algo=9)|
-|6064|[카잉 달력](https://www.acmicpc.net/problem/6064)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[chinese remainder theorem](https://www.acmicpc.net/problemset?sort=ac_desc&algo=19), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [number theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=95)|
 
 
 <div>
