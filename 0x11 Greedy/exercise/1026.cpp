@@ -17,9 +17,7 @@ int main(void) {
   sort(a, a + n);
   sort(b, b + n);
   int s = 0;
-  for (int i = 0; i < n; ++i) {
-    s += a[i] * b[n - i - 1];
-  }
+  for (int i = 0; i < n; ++i) s += a[i] * b[n - i - 1];
   cout << s;
   return 0;
 }
