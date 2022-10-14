@@ -29,14 +29,14 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Thu Oct 13 09:06:27 UTC 2022 -->
+<!-- Added by: runner, at: Fri Oct 14 05:33:49 UTC 2022 -->
 
 <!--te-->
 
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/229/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
+![100%](https://progress-bar.dev/231/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
 
 ## 0x02 How to write basic codes 2
 
@@ -503,7 +503,7 @@
 
 ## 0x11 Greedy
 
-![100%](https://progress-bar.dev/15/?scale=17&title=progress&width=600&color=babaca&suffix=/17)
+![100%](https://progress-bar.dev/17/?scale=17&title=progress&width=600&color=babaca&suffix=/17)
 
 [풀이 링크](../0x11%20Greedy/exercise)
 
@@ -530,6 +530,8 @@
 |2217|[로프](https://www.acmicpc.net/problem/2217)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
 |2457|[공주님의 정원](https://www.acmicpc.net/problem/2457)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
 |2847|[게임을 만든 동준이](https://www.acmicpc.net/problem/2847)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33)|
+|7570|[줄 세우기](https://www.acmicpc.net/problem/7570)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[dynamic programming](https://www.acmicpc.net/problemset?sort=ac_desc&algo=25), [greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33)|
+|8980|[택배](https://www.acmicpc.net/problem/8980)|<img height="25px" width="25px" src="../scripts/images/14.svg"/><div style="color:#EC9A01">Gold II</div>|[greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
 
 
 <div>
