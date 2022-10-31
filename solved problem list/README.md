@@ -29,14 +29,14 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Sat Oct 29 14:33:37 UTC 2022 -->
+<!-- Added by: runner, at: Mon Oct 31 08:12:13 UTC 2022 -->
 
 <!--te-->
 
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/248/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
+![100%](https://progress-bar.dev/250/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
 
 ## 0x02 How to write basic codes 2
 
@@ -307,7 +307,7 @@
 |11729|[하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
 |14956|[Philosopher’s Walk](https://www.acmicpc.net/problem/14956)|<img height="25px" width="25px" src="../scripts/images/14.svg"/><div style="color:#EC9A01">Gold II</div>|[divide and conquer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=24), [recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
 |17478|[재귀함수가 뭔가요?](https://www.acmicpc.net/problem/17478)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102), [recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
-|2447|[별 찍기 - 10](https://www.acmicpc.net/problem/2447)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[divide and conquer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=24), [recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
+|2447|[별 찍기 - 10](https://www.acmicpc.net/problem/2447)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[divide and conquer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=24), [recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
 |2448|[별 찍기 - 11](https://www.acmicpc.net/problem/2448)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
 |2630|[색종이 만들기](https://www.acmicpc.net/problem/2630)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[divide and conquer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=24), [recursion](https://www.acmicpc.net/problemset?sort=ac_desc&algo=62)|
 
@@ -607,7 +607,7 @@
 
 ## 0x14 Two Pointer
 
-![100%](https://progress-bar.dev/3/?scale=11&title=progress&width=600&color=babaca&suffix=/11)
+![100%](https://progress-bar.dev/5/?scale=11&title=progress&width=600&color=babaca&suffix=/11)
 
 [풀이 링크](../0x14%20Two%20Pointer/exercise)
 
@@ -621,7 +621,9 @@
 |:---:|:---:|:---:|:---:|
 |1644|[소수의 연속합](https://www.acmicpc.net/problem/1644)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [number theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=95), [primality test](https://www.acmicpc.net/problemset?sort=ac_desc&algo=9), [sieve of eratosthenes](https://www.acmicpc.net/problemset?sort=ac_desc&algo=67), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
 |1806|[부분합](https://www.acmicpc.net/problem/1806)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[prefix sum](https://www.acmicpc.net/problemset?sort=ac_desc&algo=139), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
+|2003|[수들의 합 2](https://www.acmicpc.net/problem/2003)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[bruteforcing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=125), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
 |2230|[수 고르기](https://www.acmicpc.net/problem/2230)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
+|13144|[List of Unique Numbers](https://www.acmicpc.net/problem/13144)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
 
 
 <div>
