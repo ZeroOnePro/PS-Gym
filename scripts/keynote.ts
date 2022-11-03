@@ -40,7 +40,7 @@ const generateTemplate = (
   problems.map((problem) => {
     template += `## [${problem.problemId} - ${problem.titleKo}](https://www.acmicpc.net/problem/${problem.problemId})\n\n`;
     template += `### 1. 해결 핵심 아이디어\n\n`;
-    template += `### 2. 풀이\n\n`;
+    template += `### 2. 코멘트\n\n`;
   });
 
   return template;
