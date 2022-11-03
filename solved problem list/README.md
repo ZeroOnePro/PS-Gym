@@ -29,14 +29,14 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Tue Nov  1 04:26:14 UTC 2022 -->
+<!-- Added by: runner, at: Thu Nov  3 03:53:48 UTC 2022 -->
 
 <!--te-->
 
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/255/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
+![100%](https://progress-bar.dev/256/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
 
 ## 0x02 How to write basic codes 2
 
@@ -64,7 +64,7 @@
 |2444|[별 찍기 - 7](https://www.acmicpc.net/problem/2444)|<img height="25px" width="25px" src="../scripts/images/3.svg"/><div style="color:#AD5600">Bronze III</div>|[implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102)|
 |2445|[별 찍기 - 8](https://www.acmicpc.net/problem/2445)|<img height="25px" width="25px" src="../scripts/images/3.svg"/><div style="color:#AD5600">Bronze III</div>|[implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102)|
 |2446|[별 찍기 - 9](https://www.acmicpc.net/problem/2446)|<img height="25px" width="25px" src="../scripts/images/3.svg"/><div style="color:#AD5600">Bronze III</div>|[implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102)|
-|2480|[주사위 세개](https://www.acmicpc.net/problem/2480)|<img height="25px" width="25px" src="../scripts/images/2.svg"/><div style="color:#AD5600">Bronze IV</div>|[arithmetic](https://www.acmicpc.net/problemset?sort=ac_desc&algo=121), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124)|
+|2480|[주사위 세개](https://www.acmicpc.net/problem/2480)|<img height="25px" width="25px" src="../scripts/images/2.svg"/><div style="color:#AD5600">Bronze IV</div>|[arithmetic](https://www.acmicpc.net/problemset?sort=ac_desc&algo=121), [case work](https://www.acmicpc.net/problemset?sort=ac_desc&algo=137), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124)|
 |2490|[윷놀이](https://www.acmicpc.net/problem/2490)|<img height="25px" width="25px" src="../scripts/images/3.svg"/><div style="color:#AD5600">Bronze III</div>|[implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102)|
 |2562|[최댓값](https://www.acmicpc.net/problem/2562)|<img height="25px" width="25px" src="../scripts/images/3.svg"/><div style="color:#AD5600">Bronze III</div>|[implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102)|
 |2576|[홀수](https://www.acmicpc.net/problem/2576)|<img height="25px" width="25px" src="../scripts/images/3.svg"/><div style="color:#AD5600">Bronze III</div>|[implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124)|
@@ -607,7 +607,7 @@
 
 ## 0x14 Two Pointer
 
-![100%](https://progress-bar.dev/10/?scale=11&title=progress&width=600&color=babaca&suffix=/11)
+![100%](https://progress-bar.dev/11/?scale=11&title=progress&width=600&color=babaca&suffix=/11)
 
 [풀이 링크](../0x14%20Two%20Pointer/exercise)
 
@@ -627,6 +627,7 @@
 |2461|[대표 선수](https://www.acmicpc.net/problem/2461)|<img height="25px" width="25px" src="../scripts/images/14.svg"/><div style="color:#EC9A01">Gold II</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
 |2531|[회전 초밥](https://www.acmicpc.net/problem/2531)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[bruteforcing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=125), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
 |13144|[List of Unique Numbers](https://www.acmicpc.net/problem/13144)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
+|20366|[같이 눈사람 만들래?](https://www.acmicpc.net/problem/20366)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[binary search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=12), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
 |20922|[겹치는 건 싫어](https://www.acmicpc.net/problem/20922)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
 |22862|[가장 긴 짝수 연속한 부분 수열 (large)](https://www.acmicpc.net/problem/22862)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
 
