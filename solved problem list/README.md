@@ -29,14 +29,14 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Thu Nov  3 04:19:12 UTC 2022 -->
+<!-- Added by: runner, at: Fri Nov  4 09:04:23 UTC 2022 -->
 
 <!--te-->
 
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/256/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
+![100%](https://progress-bar.dev/261/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
 
 ## 0x02 How to write basic codes 2
 
@@ -638,7 +638,7 @@
 
 ## 0x15 Hash
 
-![100%](https://progress-bar.dev/2/?scale=10&title=progress&width=600&color=babaca&suffix=/10)
+![100%](https://progress-bar.dev/7/?scale=10&title=progress&width=600&color=babaca&suffix=/10)
 
 [풀이 링크](../0x15%20Hash/exercise)
 
@@ -652,6 +652,11 @@
 |:---:|:---:|:---:|:---:|
 |1620|[나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [set / map by hashing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=136)|
 |7785|[회사에 있는 사람](https://www.acmicpc.net/problem/7785)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [set / map by hashing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=136)|
+|9375|[패션왕 신해빈](https://www.acmicpc.net/problem/9375)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[combinatorics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=6), [data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [set / map by hashing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=136), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124)|
+|11478|[서로 다른 부분 문자열의 개수](https://www.acmicpc.net/problem/11478)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [set / map by hashing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=136), [string](https://www.acmicpc.net/problemset?sort=ac_desc&algo=158), [set / map by trees](https://www.acmicpc.net/problemset?sort=ac_desc&algo=74)|
+|13414|[수강신청](https://www.acmicpc.net/problem/13414)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [set / map by hashing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=136), [implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102)|
+|16165|[걸그룹 마스터 준석이](https://www.acmicpc.net/problem/16165)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [set / map by hashing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=136)|
+|17219|[비밀번호 찾기](https://www.acmicpc.net/problem/17219)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [set / map by hashing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=136)|
 
 
 <div>
