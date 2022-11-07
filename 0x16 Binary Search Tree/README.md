@@ -53,7 +53,7 @@
 
 - 이런 상황을 막기 위해 트리를 균형잡히게 만들어줘야하고, 스스로 균형을 잡는 트리 구조를 자가 균형 트리라고 부르고 대표적으로 AVL 트리, Red Black 트리가 있다
 - AVL트리는 구현이 간단한 장점이 있고, Red Black 트리는 성능이 더 좋다는 장점이 있어서 STL의 이진 검색 트리는 Red Black 트리로 구현이 돼있다
-- 편향성을 해소해줌으로서 모든 연산을 O(logN)에 할 수 있게 됨
+- 편향성을 해소해줌으로서 모든 연산이 O(logN) 보장
 
 ## 0x03 STL
 
@@ -61,6 +61,8 @@
 
   - insert, erase, find, lower_bound, next, prev 모두 O(logN)
   - advance(iterator, N)는 자체로 O(NlogN)이다 → 한 칸 움직일 때 O(logN)이므로
+  - 원소의 존재여부를 판단하며 정렬이 필요한 경우 set을 사용한다
+  - 중복없는 저장을 원할 때도 사용할 수 있다
 
   ```cpp
   void set_example(){
