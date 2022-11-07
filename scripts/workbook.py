@@ -25,5 +25,5 @@ if __name__=='__main__':
   pool.join()
   print("--- %s seconds ---" % (time.time() - start_time))
   workbook = { next(iter(chapter_problem)): list(*chapter_problem.values())  for chapter_problem in chapter_problems if not chapter_problem is None }
-  with open('./scripts/workbook.json', 'w', encoding='utf-8') as file:
+  with open('./workbook.json', 'w', encoding='utf-8') as file:
         json.dump(workbook, file)
