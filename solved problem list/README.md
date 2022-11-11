@@ -29,14 +29,14 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Thu Nov 10 08:05:24 UTC 2022 -->
+<!-- Added by: runner, at: Fri Nov 11 06:38:13 UTC 2022 -->
 
 <!--te-->
 
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/269/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
+![100%](https://progress-bar.dev/273/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
 
 ## 0x02 How to write basic codes 2
 
@@ -204,7 +204,7 @@
 |1021|[회전하는 큐](https://www.acmicpc.net/problem/1021)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [deque](https://www.acmicpc.net/problemset?sort=ac_desc&algo=73)|
 |5430|[AC](https://www.acmicpc.net/problem/5430)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[deque](https://www.acmicpc.net/problemset?sort=ac_desc&algo=73), [parsing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=96), [implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102), [string](https://www.acmicpc.net/problemset?sort=ac_desc&algo=158), [data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175)|
 |10866|[덱](https://www.acmicpc.net/problem/10866)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [deque](https://www.acmicpc.net/problemset?sort=ac_desc&algo=73)|
-|11003|[최솟값 찾기](https://www.acmicpc.net/problem/11003)|<img height="25px" width="25px" src="../scripts/images/15.svg"/><div style="color:#EC9A01">Gold I</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [deque](https://www.acmicpc.net/problemset?sort=ac_desc&algo=73), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59)|
+|11003|[최솟값 찾기](https://www.acmicpc.net/problem/11003)|<img height="25px" width="25px" src="../scripts/images/16.svg"/><div style="color:#28E2A4">Platinum V</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [deque](https://www.acmicpc.net/problemset?sort=ac_desc&algo=73), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59)|
 
 
 <div>
@@ -695,7 +695,7 @@
 
 ## 0x17 Priority Queue
 
-![100%](https://progress-bar.dev/3/?scale=8&title=progress&width=600&color=babaca&suffix=/8)
+![100%](https://progress-bar.dev/7/?scale=8&title=progress&width=600&color=babaca&suffix=/8)
 
 [풀이 링크](../0x17%20Priority%20Queue/exercise)
 
@@ -707,9 +707,13 @@
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
+|1655|[가운데를 말해요](https://www.acmicpc.net/problem/1655)|<img height="25px" width="25px" src="../scripts/images/14.svg"/><div style="color:#EC9A01">Gold II</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59)|
 |1715|[카드 정렬하기](https://www.acmicpc.net/problem/1715)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59)|
 |1927|[최소 힙](https://www.acmicpc.net/problem/1927)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59)|
+|2075|[N번째 큰 수](https://www.acmicpc.net/problem/2075)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
+|11279|[최대 힙](https://www.acmicpc.net/problem/11279)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59)|
 |11286|[절댓값 힙](https://www.acmicpc.net/problem/11286)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59)|
+|13975|[파일 합치기 3](https://www.acmicpc.net/problem/13975)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59)|
 
 
 <div>
