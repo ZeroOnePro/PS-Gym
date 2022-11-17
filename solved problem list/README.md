@@ -29,14 +29,14 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Tue Nov 15 06:13:30 UTC 2022 -->
+<!-- Added by: runner, at: Thu Nov 17 05:31:45 UTC 2022 -->
 
 <!--te-->
 
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/278/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
+![100%](https://progress-bar.dev/281/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
 
 ## 0x02 How to write basic codes 2
 
@@ -723,7 +723,7 @@
 
 ## 0x18 Graph
 
-![100%](https://progress-bar.dev/6/?scale=13&title=progress&width=600&color=babaca&suffix=/13)
+![100%](https://progress-bar.dev/9/?scale=13&title=progress&width=600&color=babaca&suffix=/13)
 
 [풀이 링크](../0x18%20Graph/exercise)
 
@@ -736,9 +736,12 @@
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |1260|[DFS와 BFS](https://www.acmicpc.net/problem/1260)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11), [breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127)|
+|1325|[효율적인 해킹](https://www.acmicpc.net/problem/1325)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
+|1389|[케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [floyd–warshall](https://www.acmicpc.net/problemset?sort=ac_desc&algo=31), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |2606|[바이러스](https://www.acmicpc.net/problem/2606)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11), [breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127)|
 |2660|[회장뽑기](https://www.acmicpc.net/problem/2660)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [floyd–warshall](https://www.acmicpc.net/problemset?sort=ac_desc&algo=31), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |5567|[결혼식](https://www.acmicpc.net/problem/5567)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
+|6118|[숨바꼭질](https://www.acmicpc.net/problem/6118)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |11430|[VAN DINSKY](https://www.acmicpc.net/problem/11430)|<img height="25px" width="25px" src="../scripts/images/0.svg"/><div style="color:undefined">Unrated</div>||
 |11724|[연결 요소의 개수](https://www.acmicpc.net/problem/11724)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11), [breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127)|
 
