@@ -29,7 +29,7 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Thu Nov 17 05:34:30 UTC 2022 -->
+<!-- Added by: runner, at: Thu Nov 17 05:37:13 UTC 2022 -->
 
 <!--te-->
 
@@ -742,7 +742,7 @@
 |2660|[회장뽑기](https://www.acmicpc.net/problem/2660)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [floyd–warshall](https://www.acmicpc.net/problemset?sort=ac_desc&algo=31), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |5567|[결혼식](https://www.acmicpc.net/problem/5567)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |6118|[숨바꼭질](https://www.acmicpc.net/problem/6118)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
-|11430|[VAN DINSKY](https://www.acmicpc.net/problem/11430)|<img height="25px" width="25px" src="../scripts/images/0.svg"/><div style="color:undefined">Unrated</div>||
+|11403|[경로 찾기](https://www.acmicpc.net/problem/11403)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[floyd–warshall](https://www.acmicpc.net/problemset?sort=ac_desc&algo=31), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |11724|[연결 요소의 개수](https://www.acmicpc.net/problem/11724)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11), [breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127)|
 
 
