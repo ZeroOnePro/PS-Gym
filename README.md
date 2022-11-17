@@ -15,7 +15,7 @@
   - 더 효율적인 방법은 없었나, 문제를 푸는 다른 방법이 있나 보기
   - 신기한 발상이 있다면 정리
   - 별해의 경우 문제번호\_Another.cpp로 소스코드 파일명 따로 추가하기
-- 풀이가 생각안나서 답안 본 문제나 다시 풀어보고 싶은 또는 다시 풀어보면 좋겠는 문제는 표시해놓고 챕터 연습문제 끝나면 다시 풀어보기
+- 풀이가 생각안나서 답안 본 문제나 다시 풀 필요잇는 문제는 표시해놓고 나중에 n회독 때 다시 풀어보기
   - 문제번호\_X.cpp로 소스코드파일명 변경해놓기
 
 ## 복습 계획
@@ -30,10 +30,13 @@
 
 - [해결한 연습 문제 리스트](./solved%20problem%20list/)
 
-- [바킹독님 연습문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md)
+- 연습문제 셋
 
-- [tony9402님 코딩테스트 연습 셋](https://github.com/tony9402/baekjoon)
+  - [바킹독님 연습문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md)
 
+  - [tony9402님 코딩테스트 연습 셋](https://github.com/tony9402/baekjoon)
+
+  - [solved.ac class](https://solved.ac/class)
 
 ## 스크립트
 
