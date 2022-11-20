@@ -29,14 +29,14 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Fri Nov 18 05:46:49 UTC 2022 -->
+<!-- Added by: runner, at: Sun Nov 20 14:41:51 UTC 2022 -->
 
 <!--te-->
 
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/283/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
+![100%](https://progress-bar.dev/284/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
 
 ## 0x02 How to write basic codes 2
 
@@ -723,7 +723,7 @@
 
 ## 0x18 Graph
 
-![100%](https://progress-bar.dev/11/?scale=13&title=progress&width=600&color=babaca&suffix=/13)
+![100%](https://progress-bar.dev/12/?scale=13&title=progress&width=600&color=babaca&suffix=/13)
 
 [풀이 링크](../0x18%20Graph/exercise)
 
@@ -735,6 +735,7 @@
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
+|1043|[거짓말](https://www.acmicpc.net/problem/1043)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [disjoint set](https://www.acmicpc.net/problemset?sort=ac_desc&algo=81), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |1260|[DFS와 BFS](https://www.acmicpc.net/problem/1260)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11), [breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127)|
 |1325|[효율적인 해킹](https://www.acmicpc.net/problem/1325)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [depth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=127), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
 |1389|[케빈 베이컨의 6단계 법칙](https://www.acmicpc.net/problem/1389)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[breadth-first search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=126), [floyd–warshall](https://www.acmicpc.net/problemset?sort=ac_desc&algo=31), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [graph traversal](https://www.acmicpc.net/problemset?sort=ac_desc&algo=11)|
