@@ -4,22 +4,12 @@ using namespace std;
 
 int lc[27], rc[27];
 
-void preorder_traversal(int cur, string& result) {
-  result += cur + 'A' - 1;
-  if (lc[cur] != 0) preorder_traversal(lc[cur], result);
-  if (rc[cur] != 0) preorder_traversal(rc[cur], result);
-}
-
-void inorder_traversal(int cur, string& result) {
-  if (lc[cur] != 0) inorder_traversal(lc[cur], result);
-  result += cur + 'A' - 1;
-  if (rc[cur] != 0) inorder_traversal(rc[cur], result);
-}
-
-void postorder_traversal(int cur, string& result) {
-  if (lc[cur] != 0) postorder_traversal(lc[cur], result);
-  if (rc[cur] != 0) postorder_traversal(rc[cur], result);
-  result += cur + 'A' - 1;
+void traversal(int cur, string order, string& result) {
+  if (order == "pre") result += cur + 'A' - 1;
+  if (lc[cur] != 0) traversal(lc[cur], order, result);
+  if (order == "in") result += cur + 'A' - 1;
+  if (rc[cur] != 0) traversal(rc[cur], order, result);
+  if (order == "post") result += cur + 'A' - 1;
 }
 
 int main(void) {
@@ -34,9 +24,9 @@ int main(void) {
     if (right != '.') rc[cur - 'A' + 1] = right - 'A' + 1;
   }
   string preorder = "", inorder = "", postorder = "";
-  preorder_traversal(1, preorder);
-  inorder_traversal(1, inorder);
-  postorder_traversal(1, postorder);
+  traversal(1, "pre", preorder);
+  traversal(1, "in", inorder);
+  traversal(1, "post", postorder);
   cout << preorder + '\n' + inorder + '\n' + postorder;
   return 0;
 }
