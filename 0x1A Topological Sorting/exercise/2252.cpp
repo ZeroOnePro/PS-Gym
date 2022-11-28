@@ -2,8 +2,10 @@
 
 using namespace std;
 
-vector<int> adj[32002];
-int deg[32002];
+const int range = 32'002;
+
+vector<int> adj[range];
+int deg[range];
 
 int main(void) {
   ios::sync_with_stdio(false);
@@ -29,8 +31,6 @@ int main(void) {
       if (deg[nxt] == 0) q.push(nxt);
     }
   }
-  for (int i : result) {
-    cout << i << ' ';
-  }
+  for (int i : result) cout << i << ' ';
   return 0;
 }
