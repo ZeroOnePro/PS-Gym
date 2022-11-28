@@ -29,14 +29,14 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Sun Nov 27 07:50:49 UTC 2022 -->
+<!-- Added by: runner, at: Mon Nov 28 05:31:40 UTC 2022 -->
 
 <!--te-->
 
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/296/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
+![100%](https://progress-bar.dev/298/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
 
 ## 0x02 How to write basic codes 2
 
@@ -789,7 +789,7 @@
 
 ## 0x1A Topological Sorting
 
-![100%](https://progress-bar.dev/1/?scale=7&title=progress&width=600&color=babaca&suffix=/7)
+![100%](https://progress-bar.dev/3/?scale=7&title=progress&width=600&color=babaca&suffix=/7)
 
 [풀이 링크](../0x1A%20Topological%20Sorting/exercise)
 
@@ -802,6 +802,8 @@
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |2252|[줄 세우기](https://www.acmicpc.net/problem/2252)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [topological sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=78)|
+|2623|[음악프로그램](https://www.acmicpc.net/problem/2623)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [topological sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=78)|
+|21276|[계보 복원가 호석](https://www.acmicpc.net/problem/21276)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [set / map by hashing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=136), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97), [topological sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=78)|
 
 
 <div>
