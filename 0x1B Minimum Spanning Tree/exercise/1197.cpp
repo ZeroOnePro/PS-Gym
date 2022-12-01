@@ -12,18 +12,26 @@ int find(int x) {
   return parent[x] = find(parent[x]);
 }
 
-// union by lank 적용
+// union by rank 적용
 bool is_diff_group(int u, int v) {
   u = find(u);
   v = find(v);
   if (u == v) return false;
-  // parent[u]가 어떤 disjoint set(집합을 트리로 구현했을 때)의 루트라는 의미
-  // parent[u]의 부모가 있었다면 find(u) = find(v) = parent[parent[u]] 를
-  // 반환했을 것이기 때문 parent[i]에는 i가 루트일 경우 (-1) * i의 rank가
-  // 담기는데, union(u, v)를 하게되면, parent[u] 를 루트로 하고 u, v, u의
-  // 자식들, v의 자식들이 parent[u]의 자식이 됨(경로압축 때문), 결과적으로
-  // 만들어진 트리는 lank가 2가되고, parent[u]는 lank가 - 1 되야함
+  // parent[u] == parent[v]의 의미는
+  // u와 v가 각각 disjoint set의 루트라는 의미이다
+  // parent[u]의 부모가 있었다면 find(u) = find(v) = parent[parent[u]]를
+  // 반환했을 것이기 때문(v도 마찬가지) union(u, v)를 하게되면, u를 루트로 하고
+  // u, v, u의 자식들, v의 자식들이 u의 자식이 됨(경로압축 때문)
+  // 만들어진 트리는 rank가 2가되고, u에 저장된 rank를 1 감소시켜야함(rank가
+  // 음수로 담긴다)
   if (parent[u] == parent[v]) parent[u] -= 1;
+  // rank는 음수
+  // 높이가 더 높을 수록 값이 작다
+  // 항상 높이가 더 낮은 트리를 높이가 높은 트리 밑에 넣는다
+  // 높이가 더 높은 쪽을 루트로 삼는다
+  // v의 rank가 더 클 경우(높이가 작은 경우) u의 집합으로 합친다
+  // v가 u 밑으로 들어간다
+  // 각 disjoint set의 루트만 높이가 담기고 자식들에는 부모의 번호가 담긴다
   if (parent[u] < parent[v])
     parent[v] = u;
   else
