@@ -1,6 +1,6 @@
 lxml==4.9.1
 pandas==1.5.1
 python-dateutil==2.8.2
-pytx==2020.6
+pytx==2022.6
 numpy==1.23.5
 six==1.16.0
