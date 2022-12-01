@@ -20,9 +20,7 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
-
-      - name: install dependencies
-        run: pip install -r requirements.txt
+      - run: pip install -r requirements.txt
 
       - name: generate workbook
         run: python3.11 scripts/workbook.py
