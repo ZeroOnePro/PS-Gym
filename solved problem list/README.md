@@ -29,14 +29,14 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Fri Dec  2 03:38:01 UTC 2022 -->
+<!-- Added by: runner, at: Fri Dec  2 06:29:24 UTC 2022 -->
 
 <!--te-->
 
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/307/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
+![100%](https://progress-bar.dev/309/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
 
 ## 0x02 How to write basic codes 2
 
@@ -816,7 +816,7 @@
 
 ## 0x1B Minimum Spanning Tree
 
-![100%](https://progress-bar.dev/7/?scale=9&title=progress&width=600&color=babaca&suffix=/9)
+![100%](https://progress-bar.dev/9/?scale=9&title=progress&width=600&color=babaca&suffix=/9)
 
 [풀이 링크](../0x1B%20Minimum%20Spanning%20Tree/exercise)
 
@@ -832,7 +832,9 @@
 |1368|[물대기](https://www.acmicpc.net/problem/1368)|<img height="25px" width="25px" src="../scripts/images/14.svg"/><div style="color:#EC9A01">Gold II</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [minimum spanning tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=49)|
 |1647|[도시 분할 계획](https://www.acmicpc.net/problem/1647)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [minimum spanning tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=49)|
 |1774|[우주신과의 교감](https://www.acmicpc.net/problem/1774)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [minimum spanning tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=49)|
+|2887|[행성 터널](https://www.acmicpc.net/problem/2887)|<img height="25px" width="25px" src="../scripts/images/16.svg"/><div style="color:#28E2A4">Platinum V</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [minimum spanning tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=49), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
 |9372|[상근이의 여행](https://www.acmicpc.net/problem/9372)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=120)|
+|10423|[전기가 부족해](https://www.acmicpc.net/problem/10423)|<img height="25px" width="25px" src="../scripts/images/14.svg"/><div style="color:#EC9A01">Gold II</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [minimum spanning tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=49)|
 |13418|[학교 탐방하기](https://www.acmicpc.net/problem/13418)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [minimum spanning tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=49)|
 |16398|[행성 연결](https://www.acmicpc.net/problem/16398)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [minimum spanning tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=49)|
 
