@@ -23,7 +23,8 @@
     "algorithm": "cpp",
     "forward_list": "cpp",
     "list": "cpp",
-    "numeric": "cpp"
+    "numeric": "cpp",
+    "tuple": "cpp"
   },
   "explorer.openEditors.sortOrder": "editorOrder",
   "explorer.sortOrder": "default",
