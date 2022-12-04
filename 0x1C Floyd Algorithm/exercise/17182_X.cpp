@@ -4,30 +4,15 @@ using namespace std;
 
 const int range = 15;
 
-int n, k, ans = 0x3f3f3f3f;
+int n, k;
 int dist[range][range];
 bool vis[range];
-
-// 시작점 * (n-1)! 경우의 수를 모두 살펴보기
-// 백트래킹에서 했었던 n과 m시리즈
-void traversal(int cur, int d, int depth) {
-  if (depth == n - 1) {
-    ans = min(ans, d);
-    return;
-  }
-  for (int nxt = 0; nxt < n; ++nxt) {
-    if (vis[nxt]) continue;
-    vis[nxt] = true;
-    traversal(nxt, d + dist[cur][nxt], depth + 1);
-    vis[nxt] = false;
-  }
-}
 
 void floyd() {
   for (int m = 0; m < n; ++m)
     for (int i = 0; i < n; ++i)
       for (int j = 0; j < n; ++j) {
-        if (i == j || m == i || m == j) continue;
+        if (i == j || k == i || k == j) continue;
         dist[i][j] = min(dist[i][j], dist[i][m] + dist[m][j]);
       }
 }
@@ -39,8 +24,28 @@ int main(void) {
   for (int i = 0; i < n; ++i)
     for (int j = 0; j < n; ++j) cin >> dist[i][j];
   floyd();
+  // 시작 행성은 제외, 이미 탐색된 것
+  int ans = 0;
   vis[k] = true;
-  traversal(k, 0, 0);
+  while (true) {
+    int min_dist = INT_MAX;
+    int nearest = -1;
+    for (int i = 0; i < n; ++i) {
+      if (i == k) continue;
+      if (vis[i]) continue;
+      if (min_dist > dist[k][i]) {
+        min_dist = dist[k][i];
+        nearest = i;
+      }
+    }
+    k = nearest;
+    vis[k] = true;
+    ans += min_dist;
+    int cnt = 0;
+    for (int i = 0; i < n; ++i)
+      if (vis[i]) cnt += 1;
+    if (cnt == n) break;
+  }
   cout << ans;
   return 0;
 }
