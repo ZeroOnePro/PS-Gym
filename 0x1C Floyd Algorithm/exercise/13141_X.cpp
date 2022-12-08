@@ -37,12 +37,7 @@ int main(void) {
     dist[st[i]][en[i]] = min(dist[st[i]][en[i]], cost[i]);
     dist[en[i]][st[i]] = min(dist[en[i]][st[i]], cost[i]);
   }
-  // 시작점에서 각 노드에 언제 처음 도달하는지(불이 붙는지)알기 위해
-  // 플로이드 알고리즘 사용
   floyd();
-  // 모든 정점을 시작점으로 하여 다른 모든 간선이 타는데 가장 적게 걸리는
-  // 시간을 구한다
-  // 자세한 설명은 README 참고
   int mn = INF;
   for (int i = 1; i <= n; ++i) {
     int mx = 0;
