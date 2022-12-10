@@ -29,14 +29,14 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Sat Dec 10 01:47:50 UTC 2022 -->
+<!-- Added by: runner, at: Sat Dec 10 04:53:32 UTC 2022 -->
 
 <!--te-->
 
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/323/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
+![100%](https://progress-bar.dev/324/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
 
 ## 0x02 How to write basic codes 2
 
@@ -880,7 +880,7 @@
 
 ## 0x1D Dijkstra Algorithm
 
-![100%](https://progress-bar.dev/3/?scale=14&title=progress&width=600&color=babaca&suffix=/14)
+![100%](https://progress-bar.dev/4/?scale=14&title=progress&width=600&color=babaca&suffix=/14)
 
 [풀이 링크](../0x1D%20Dijkstra%20Algorithm/exercise)
 
@@ -893,6 +893,7 @@
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
 |1238|[파티](https://www.acmicpc.net/problem/1238)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[dijkstra's](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7)|
+|1504|[특정한 최단 경로](https://www.acmicpc.net/problem/1504)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[dijkstra's](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7)|
 |1753|[최단경로](https://www.acmicpc.net/problem/1753)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[dijkstra's](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7)|
 |11779|[최소비용 구하기 2](https://www.acmicpc.net/problem/11779)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[dijkstra's](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7)|
 
