@@ -29,14 +29,14 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Sat Dec 10 04:53:32 UTC 2022 -->
+<!-- Added by: runner, at: Mon Dec 12 09:44:06 UTC 2022 -->
 
 <!--te-->
 
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/324/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
+![100%](https://progress-bar.dev/325/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
 
 ## 0x02 How to write basic codes 2
 
@@ -229,7 +229,7 @@
 |3986|[좋은 단어](https://www.acmicpc.net/problem/3986)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71)|
 |4949|[균형잡힌 세상](https://www.acmicpc.net/problem/4949)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71), [string](https://www.acmicpc.net/problemset?sort=ac_desc&algo=158)|
 |9012|[괄호](https://www.acmicpc.net/problem/9012)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71), [string](https://www.acmicpc.net/problemset?sort=ac_desc&algo=158)|
-|10799|[쇠막대기](https://www.acmicpc.net/problem/10799)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71)|
+|10799|[쇠막대기](https://www.acmicpc.net/problem/10799)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [stack](https://www.acmicpc.net/problemset?sort=ac_desc&algo=71)|
 
 
 <div>
@@ -880,7 +880,7 @@
 
 ## 0x1D Dijkstra Algorithm
 
-![100%](https://progress-bar.dev/4/?scale=14&title=progress&width=600&color=babaca&suffix=/14)
+![100%](https://progress-bar.dev/5/?scale=14&title=progress&width=600&color=babaca&suffix=/14)
 
 [풀이 링크](../0x1D%20Dijkstra%20Algorithm/exercise)
 
@@ -895,6 +895,7 @@
 |1238|[파티](https://www.acmicpc.net/problem/1238)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[dijkstra's](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7)|
 |1504|[특정한 최단 경로](https://www.acmicpc.net/problem/1504)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[dijkstra's](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7)|
 |1753|[최단경로](https://www.acmicpc.net/problem/1753)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[dijkstra's](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7)|
+|1916|[최소비용 구하기](https://www.acmicpc.net/problem/1916)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[dijkstra's](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7)|
 |11779|[최소비용 구하기 2](https://www.acmicpc.net/problem/11779)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[dijkstra's](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7)|
 
 
