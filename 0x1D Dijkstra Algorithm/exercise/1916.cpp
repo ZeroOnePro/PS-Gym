@@ -22,6 +22,7 @@ void dijkstra(int st) {
   while (!pq.empty()) {
     auto [d, cur] = pq.top();
     pq.pop();
+    if (dist[cur] != d) continue;
     for (auto [cost, nxt] : adj[cur]) {
       ll new_dist = cost + dist[cur];
       if (dist[nxt] > new_dist) {
