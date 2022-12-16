@@ -29,14 +29,14 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Fri Dec 16 12:59:27 UTC 2022 -->
+<!-- Added by: runner, at: Fri Dec 16 14:48:55 UTC 2022 -->
 
 <!--te-->
 
 
 현재 푼 모든 문제 수 / 모든 챕터 연습 문제 수
 
-![100%](https://progress-bar.dev/330/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
+![100%](https://progress-bar.dev/331/?scale=442&title=progress&width=600&color=babaca&suffix=/442)
 
 ## 0x02 How to write basic codes 2
 
@@ -880,7 +880,7 @@
 
 ## 0x1D Dijkstra Algorithm
 
-![100%](https://progress-bar.dev/10/?scale=14&title=progress&width=600&color=babaca&suffix=/14)
+![100%](https://progress-bar.dev/11/?scale=14&title=progress&width=600&color=babaca&suffix=/14)
 
 [풀이 링크](../0x1D%20Dijkstra%20Algorithm/exercise)
 
@@ -897,6 +897,7 @@
 |1261|[알고스팟](https://www.acmicpc.net/problem/1261)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[0-1 bfs](https://www.acmicpc.net/problemset?sort=ac_desc&algo=176), [dijkstra's](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7)|
 |1504|[특정한 최단 경로](https://www.acmicpc.net/problem/1504)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[dijkstra's](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7)|
 |1753|[최단경로](https://www.acmicpc.net/problem/1753)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[dijkstra's](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7)|
+|1854|[K번째 최단경로 찾기](https://www.acmicpc.net/problem/1854)|<img height="25px" width="25px" src="../scripts/images/17.svg"/><div style="color:#28E2A4">Platinum IV</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [dijkstra's](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [priority queue](https://www.acmicpc.net/problemset?sort=ac_desc&algo=59)|
 |1916|[최소비용 구하기](https://www.acmicpc.net/problem/1916)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[dijkstra's](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7)|
 |11779|[최소비용 구하기 2](https://www.acmicpc.net/problem/11779)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[dijkstra's](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7)|
 |17835|[면접보는 승범이네](https://www.acmicpc.net/problem/17835)|<img height="25px" width="25px" src="../scripts/images/14.svg"/><div style="color:#EC9A01">Gold II</div>|[dijkstra's](https://www.acmicpc.net/problemset?sort=ac_desc&algo=22), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7)|
