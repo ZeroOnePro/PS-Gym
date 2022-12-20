@@ -247,4 +247,100 @@
 
 ### 1. 해결 핵심 아이디어
 
+- 사전순 방문을 위한 정렬과 경로 (s, e)에 대한 다익스트라, 경로 (e, s)에 대한 다익스트라, 경로 복원 테이블을 이용해서 해결해보려했는데, 우선순위 큐에 너무 많은 데이터가 쌓여 런타임에러가 났다.. [원인](https://www.acmicpc.net/board/view/82543)
+
+- 이를 해결할 마땅한 대안이 생각나지 않아서 정답코드를 참조하기로 했다
+- 정답 코드의 방식
+  - 1. 시작점을 s로 하여 다익스트라 알고리즘을 수행하고 거리 배열은 dist_s[]을 사용
+  - 2. 시작점을 e로 하여 다익스트라 알고리즘을 수행하고 거리 배열은 dist_e[]을 사용
+  - 3. 경로 (s, e)를 dist_s[e]를 정답에 합한다
+  - 4. 이제 dist_s와 dist_e를 이용해서 최단 경로를 추적하면서 가능한 여러 개의 경로 중 사전순으로 앞선 경로를 찾을 것이다
+    - 1. s에서 시작하여 s와 연결된 다음 노드를 nxt라 하고 s에서 nxt로 가는 비용을 cost라 할 때, dist_s[s] + cost + dist_e[nxt] = dist_s[e]라면, nxt는 최단 경로에 포함된 정점이다, 중간에서 만나는 기법인데, 양방향 간선이므로 s에서 e로 가는 방향의 최단 경로와 e에서 s로 가는 최단 경로는 같기때문이다, 그리고 dist_s[nxt]대신 dist_s[s] + cost를 하는 이유는 dist_s[nxt]는 중간에 어느 정점을 거쳤을 수도 있기 때문이다
+    - 2. nxt가 여러개라면 더 작은 번호를 갖는 정점이 우선되야하므로 발견될 경우 값을 갱신해준다, mn에 저장
+    - 3. s와 연결된 모든 정점을 돌고 s를 mn으로 교체하고 s가 e가 될 때까지 4번 과정을 반복한다
+  - 5. 4번 과정에서 발견된 노드들은 e에서 s로 돌아오는 최단 경로에 사용되면 안되므로 다익스트라 알고리즘에 이를 반영해준다
+
 ### 2. 코멘트
+
+- 실패한 코드 첨부, 나중에 기회되면 이 방식으로 풀어봐야지
+
+```cpp
+
+    #include <bits/stdc++.h>
+
+  using namespace std;
+
+  typedef long long ll;
+
+  #define pil pair<int, ll>
+  #define tlii tuple<ll, int, int>
+
+  const int range = 200'005;
+  const ll INF = 0x7f7f7f7f7f7f;
+
+  class cmp {
+  public:
+    bool operator()(tlii a, tlii b) {
+      // 일반적인 sort와는 다르게 순서가 거꾸로감
+      auto [cost_a, nxt_a, prev_a] = a;
+      auto [cost_b, nxt_b, prev_b] = b;
+      if (cost_a == cost_b) return nxt_a < nxt_b;
+      return cost_a > cost_b;
+    }
+  };
+
+  int n, m, s, e;
+
+  vector<pil> adj[range];
+  int p[range];
+  ll dist[range];
+  int vis[range];
+
+  ll dijkstra(int st, int en) {
+    priority_queue<tlii, vector<tlii>, cmp> pq;
+    fill(dist, dist + n + 1, INF);
+    dist[st] = 0;
+    pq.push({0, st, 0});
+    while (!pq.empty()) {
+      auto [cur_dist, cur, prev] = pq.top();
+      pq.pop();
+      if (dist[cur] != cur_dist) continue;
+      for (auto [nxt, cost] : adj[cur]) {
+        if (nxt == prev) continue;
+        if (nxt != s && nxt != e && vis[nxt]) continue;
+        ll nxt_dist = dist[cur] + cost;
+        if (nxt_dist <= dist[nxt]) {
+          dist[nxt] = nxt_dist;
+          p[nxt] = cur;
+          pq.push({nxt_dist, nxt, cur});
+        }
+      }
+    }
+    return dist[en];
+  }
+
+  int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cin >> n >> m;
+    for (int i = 0; i < m; ++i) {
+      int u, v, cost;
+      cin >> u >> v >> cost;
+      adj[u].push_back({v, cost});
+      adj[v].push_back({u, cost});
+    }
+    for (int i = 1; i <= n; ++i) sort(adj[i].begin(), adj[i].end());
+    cin >> s >> e;
+    ll ans = 0;
+    ans += dijkstra(s, e);
+    int cur = e;
+    while (cur != 0) {
+      vis[cur] = true;
+      cur = p[cur];
+    }
+    ans += dijkstra(e, s);
+    cout << ans;
+    return 0;
+  }
+
+```
