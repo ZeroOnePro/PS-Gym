@@ -38,7 +38,7 @@ int bfs(int x, int y) {
       int ny = y + dy[dir];
       if (OOB(nx, ny) || dist[nx][ny] >= 0) continue;
       // 검사 로직 틀림 => 왜 틀렸는지 분석하기
-      // 영역의 너비 검사할 때 어떻게 했는지 까먹었냐??
+      // 영역의 너비 검사할 때 어떻게 했는지 까먹었냐?? 나 취업할 수 있을까?ㅠㅠ
       if (board[nx][ny] != board[st_x][st_y]) continue;
       // 터지는 거 마킹해줘야 함, 좌표 저장해놨다가 .으로 변경
       mark.push({nx, ny});
