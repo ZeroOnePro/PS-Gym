@@ -9,10 +9,13 @@ int n, k, l, x, y;
 enum { APPLE = 1 };
 
 int board[range][range];
+// 처음에 뱀이 자기 자신하고 부딪히는지 판단하기 위해 다음 이동 좌표가
+// 리스트에 있는지 find로 찾았는데 매우 비효율적인 거 같아서 방문 배열로 자취를
+// 남겨서 부딪히는지 확인
 bool vis[range][range];
 // (경과 시간, 전환할 방향)
 map<int, char> path;
-list<pair<int, int>> snake;
+list<pair<int, int>> snake;  // 다른 답안 보니까 덱을 이용한 경우가 대부분이더라
 
 // 뱀이 어딜 보고있느냐에 따라 상하좌우가 각각 L과 D가 될 수 있다
 int cur_time = 0;    // 게임 진행 시각
