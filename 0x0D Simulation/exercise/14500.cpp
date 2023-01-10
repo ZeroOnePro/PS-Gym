@@ -88,12 +88,11 @@ int main(void) {
     v2i cur = tetromino[i];
     // 8개의 가능한 경우에 대해서 검사
     put(cur);
-    put(y_symmetry(tetromino[i]));
+    put(y_symmetry(cur));
     for (int j = 1; j < 4; ++j) {
       v2i tmp = rotate(j, cur);
       put(tmp);
-      tmp = y_symmetry(tmp);
-      put(tmp);
+      put(y_symmetry(tmp));
     }
   }
   cout << mx;
