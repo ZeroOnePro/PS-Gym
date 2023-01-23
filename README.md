@@ -17,6 +17,7 @@
   - 별해의 경우 문제번호\_Another.cpp로 소스코드 파일명 따로 추가하기
 - 풀이가 생각안나서 답안 본 문제나 다시 풀 필요있는 문제는 표시해놓고 나중에 n회독 때 다시 풀어보기
   - 문제번호\_X.cpp로 소스코드파일명 변경해놓기
+- 2회독하면서 [류호석님의 강의](https://github.com/rhs0266/FastCampus) 들으면서 시야 넓히고 싶어서 복습 겸 알고리즘 다시 한 번 복습
 
 ## 풀이과정 정리
 
@@ -53,6 +54,7 @@
 
 - [해결한 연습 문제 리스트](./solved%20problem%20list/)
 - [바킹독님 연습문제집 링크](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md)
+- [류호석님 강의자료 링크](https://github.com/rhs0266/FastCampus)
 
 ## 스크립트
 
