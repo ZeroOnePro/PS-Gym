@@ -1,5 +1,6 @@
 # 해결한 문제리스트
 <!--ts-->
+* [해결한 문제리스트](#해결한-문제리스트)
    * [0x02 How to write basic codes 2](#0x02-how-to-write-basic-codes-2)
    * [0x03 Array](#0x03-array)
    * [0x04 Linked List](#0x04-linked-list)
@@ -29,7 +30,11 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+<<<<<<< HEAD
 <!-- Added by: runner, at: Mon Jan 23 11:35:12 UTC 2023 -->
+=======
+<!-- Added by: sungminyou, at: 2023년 1월 23일 월요일 21시 03분 33초 KST -->
+>>>>>>> db9e5e1 ([#46] test after script modification)
 
 <!--te-->
 
