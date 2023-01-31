@@ -29,7 +29,7 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Mon Jan 30 09:08:12 UTC 2023 -->
+<!-- Added by: runner, at: Tue Jan 31 07:13:01 UTC 2023 -->
 
 <!--te-->
 
@@ -643,7 +643,7 @@
 |2230|[수 고르기](https://www.acmicpc.net/problem/2230)|<img height="25px" width="25px" src="../scripts/images/11.svg"/><div style="color:#EC9A01">Gold V</div>|[binary search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=12), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
 |2283|[구간 자르기](https://www.acmicpc.net/problem/2283)|<img height="25px" width="25px" src="../scripts/images/14.svg"/><div style="color:#EC9A01">Gold II</div>|[prefix sum](https://www.acmicpc.net/problemset?sort=ac_desc&algo=139), [sweeping](https://www.acmicpc.net/problemset?sort=ac_desc&algo=106), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
 |2461|[대표 선수](https://www.acmicpc.net/problem/2461)|<img height="25px" width="25px" src="../scripts/images/14.svg"/><div style="color:#EC9A01">Gold II</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
-|2531|[회전 초밥](https://www.acmicpc.net/problem/2531)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[bruteforcing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=125), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
+|2531|[회전 초밥](https://www.acmicpc.net/problem/2531)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[bruteforcing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=125), [sliding window](https://www.acmicpc.net/problemset?sort=ac_desc&algo=68), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
 |13144|[List of Unique Numbers](https://www.acmicpc.net/problem/13144)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
 |20366|[같이 눈사람 만들래?](https://www.acmicpc.net/problem/20366)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
 |20922|[겹치는 건 싫어](https://www.acmicpc.net/problem/20922)|<img height="25px" width="25px" src="../scripts/images/10.svg"/><div style="color:#435F7A">Silver I</div>|[two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
