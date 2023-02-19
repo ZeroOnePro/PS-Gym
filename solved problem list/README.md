@@ -29,7 +29,7 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Mon Feb 13 16:20:28 UTC 2023 -->
+<!-- Added by: runner, at: Sun Feb 19 07:25:09 UTC 2023 -->
 
 <!--te-->
 
@@ -69,7 +69,7 @@
 |2562|[최댓값](https://www.acmicpc.net/problem/2562)|<img height="25px" width="25px" src="../scripts/images/3.svg"/><div style="color:#AD5600">Bronze III</div>|[implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102)|
 |2576|[홀수](https://www.acmicpc.net/problem/2576)|<img height="25px" width="25px" src="../scripts/images/3.svg"/><div style="color:#AD5600">Bronze III</div>|[implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124)|
 |2587|[대표값2](https://www.acmicpc.net/problem/2587)|<img height="25px" width="25px" src="../scripts/images/4.svg"/><div style="color:#AD5600">Bronze II</div>|[arithmetic](https://www.acmicpc.net/problemset?sort=ac_desc&algo=121), [implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
-|2752|[세수정렬](https://www.acmicpc.net/problem/2752)|<img height="25px" width="25px" src="../scripts/images/2.svg"/><div style="color:#AD5600">Bronze IV</div>|[implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
+|2752|[세수정렬](https://www.acmicpc.net/problem/2752)|<img height="25px" width="25px" src="../scripts/images/2.svg"/><div style="color:#AD5600">Bronze IV</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
 |2753|[윤년](https://www.acmicpc.net/problem/2753)|<img height="25px" width="25px" src="../scripts/images/1.svg"/><div style="color:#AD5600">Bronze V</div>|[implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102), [arithmetic](https://www.acmicpc.net/problemset?sort=ac_desc&algo=121), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124)|
 |2777|[숫자 놀이](https://www.acmicpc.net/problem/2777)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[greedy](https://www.acmicpc.net/problemset?sort=ac_desc&algo=33), [mathematics](https://www.acmicpc.net/problemset?sort=ac_desc&algo=124)|
 |9498|[시험 성적](https://www.acmicpc.net/problem/9498)|<img height="25px" width="25px" src="../scripts/images/1.svg"/><div style="color:#AD5600">Bronze V</div>|[implementation](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102)|
