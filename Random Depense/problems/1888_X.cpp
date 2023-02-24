@@ -6,15 +6,15 @@ typedef pair<int, int> pi2;
 
 const int range = 105;
 
-int n, m;
+int n, m, day, comp = true;
 string board[range];
-int dist[range][range];
-vector<pi2> st;
+string copied[range];
+bool vis[range][range];
 
 void print() {
   cout << '\n';
   for (int i = 0; i < m; ++i) {
-    for (int j = 0; j < n; ++j) cout << dist[i][j] << ' ';
+    for (int j = 0; j < n; ++j) cout << board[i][j] << ' ';
     cout << '\n';
   }
 }
@@ -24,40 +24,7 @@ bool OOB(int x, int y) { return x < 0 || y < 0 || x >= m || y >= n; }
 int dx[] = {1, -1, 0, 0};
 int dy[] = {0, 0, 1, -1};
 
-bool is_connected() {
-  if (st.size() == 0) return true;
-  queue<pi2> q;
-  bool vis[range][range];
-  for (int i = 0; i < m; ++i) fill(vis[i], vis[i] + n, false);
-  auto [x, y] = st[0];
-  q.push({x, y});
-  vis[x][y] = true;
-  while (!q.empty()) {
-    auto [x, y] = q.front();
-    q.pop();
-    for (int dir = 0; dir < 4; ++dir) {
-      int nx = x + dx[dir];
-      int ny = y + dy[dir];
-      if (OOB(nx, ny) || board[nx][ny] == '0' || vis[nx][ny]) continue;
-      vis[nx][ny] = true;
-      q.push({nx, ny});
-    }
-  }
-  bool res = true;
-  for (int i = 0; i < m; ++i)
-    for (int j = 0; j < n; ++j)
-      if (board[i][j] != '0') res &= vis[i][j];
-  return res;
-}
-
-void bfs() {
-  if (is_connected()) return;
-  queue<pi2> q;
-  for (int i = 0; i < m; ++i) fill(dist[i], dist[i] + n, -1);
-  for (auto [x, y] : st) {
-    q.push({x, y});
-    dist[x][y] = 0;
-  }
+void bfs(queue<pi2>& q) {
   while (!q.empty()) {
     auto [x, y] = q.front();
     q.pop();
@@ -67,10 +34,16 @@ void bfs() {
         int nx = x + r;
         int ny = y + c;
         if (OOB(nx, ny)) continue;
-        dist[nx][ny] = dist[x][y] + 1;
-        board[nx][ny] = board[x][y];
-        if (is_connected()) return;
+        copied[nx][ny] = max(copied[nx][ny], board[x][y]);
       }
+
+    for (int dir = 0; dir < 4; ++dir) {
+      int nx = x + dx[dir];
+      int ny = y + dy[dir];
+      if (OOB(nx, ny) || board[nx][ny] == '0' || vis[nx][ny]) continue;
+      vis[nx][ny] = true;
+      q.push({nx, ny});
+    }
   }
 }
 
@@ -78,16 +51,24 @@ int main(void) {
   ios::sync_with_stdio(false);
   cin.tie(nullptr);
   cin >> m >> n;
-  for (int i = 0; i < m; ++i) {
-    cin >> board[i];
-    for (int j = 0; j < n; ++j)
-      if (board[i][j] != '0') st.push_back({i, j});
+  for (int i = 0; i < m; ++i) cin >> board[i];
+  while (comp) {
+    int area = 0;
+    queue<pi2> q;
+    for (int i = 0; i < m; ++i) fill(vis[i], vis[i] + n, false);
+    copy(board, board + range, copied);
+    for (int i = 0; i < m; ++i)
+      for (int j = 0; j < n; ++j)
+        if (board[i][j] != '0' && !vis[i][j]) {
+          area += 1;
+          q.push({i, j});
+          vis[i][j] = true;
+          bfs(q);
+        }
+    copy(copied, copied + range, board);
+    comp = area > 1;
+    day += 1;
   }
-  bfs();
-  int mx = 0;
-  for (int i = 0; i < m; ++i)
-    for (int j = 0; j < n; ++j)
-      if (dist[i][j] >= 0) mx = max(mx, dist[i][j]);
-  cout << mx;
+  cout << day - 1;
   return 0;
 }
