@@ -4,6 +4,7 @@ from collections import ChainMap
 import multiprocessing as mp
 import json
 import requests
+import glob
 
 def scrap_problems(chapter):
   url = f'https://github.com/rhs0266/FastCampus/blob/main/%EA%B0%95%EC%9D%98%20%EC%9E%90%EB%A3%8C/02-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/{parse.quote(chapter)}/README.md'
@@ -36,8 +37,12 @@ if __name__=='__main__':
   pool.join()
   workbook = dict(ChainMap(*chapter_problems))
   for k, v in chapters.items():
+    cpp_files = glob.glob(f"../{v}/*.cpp")
+    cpp_files = list(map(lambda path: path.split('/')[-1], cpp_files))
     with open(f"../{v}/README.md", 'w', encoding="utf-8") as file:
       file.write('## 연습문제 리스트\n')
-      file.write('|번호|링크|\n|:---:|:---:|\n')
+      file.write('|번호|링크|풀이 여부|\n|:---:|:---:|:---:|\n')
       for problem in workbook[k]:
-        file.write(f"|{problem.split('/')[-1]}|[링크]({problem})|\n")
+        problem_id = problem.split('/')[-1]
+        solved = "O" if f"{problem_id}.cpp" in cpp_files else "X"
+        file.write(f"|{problem_id}|[링크]({problem})|{solved}|\n")
