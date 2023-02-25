@@ -29,7 +29,7 @@
    * [0x1D Dijkstra Algorithm](#0x1d-dijkstra-algorithm)
 
 <!-- Created by https://github.com/ekalinin/github-markdown-toc -->
-<!-- Added by: runner, at: Fri Feb 24 08:51:32 UTC 2023 -->
+<!-- Added by: runner, at: Sat Feb 25 16:44:38 UTC 2023 -->
 
 <!--te-->
 
@@ -446,8 +446,8 @@
 |:---:|:---:|:---:|:---:|
 |1181|[단어 정렬](https://www.acmicpc.net/problem/1181)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97), [string](https://www.acmicpc.net/problemset?sort=ac_desc&algo=158)|
 |1431|[시리얼 번호](https://www.acmicpc.net/problem/1431)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
-|2910|[빈도 정렬](https://www.acmicpc.net/problem/2910)|<img height="25px" width="25px" src="../scripts/images/9.svg"/><div style="color:#435F7A">Silver II</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [set / map by hashing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=136), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
-|5648|[역원소 정렬](https://www.acmicpc.net/problem/5648)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
+|2910|[빈도 정렬](https://www.acmicpc.net/problem/2910)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[data structures](https://www.acmicpc.net/problemset?sort=ac_desc&algo=175), [set / map by hashing](https://www.acmicpc.net/problemset?sort=ac_desc&algo=136), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
+|5648|[역원소 정렬](https://www.acmicpc.net/problem/5648)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
 |7795|[먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)|<img height="25px" width="25px" src="../scripts/images/8.svg"/><div style="color:#435F7A">Silver III</div>|[binary search](https://www.acmicpc.net/problemset?sort=ac_desc&algo=12), [sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97), [two-pointer](https://www.acmicpc.net/problemset?sort=ac_desc&algo=80)|
 |10814|[나이순 정렬](https://www.acmicpc.net/problem/10814)|<img height="25px" width="25px" src="../scripts/images/6.svg"/><div style="color:#435F7A">Silver V</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
 |10825|[국영수](https://www.acmicpc.net/problem/10825)|<img height="25px" width="25px" src="../scripts/images/7.svg"/><div style="color:#435F7A">Silver IV</div>|[sorting](https://www.acmicpc.net/problemset?sort=ac_desc&algo=97)|
@@ -850,7 +850,7 @@
 
 |번호|문제|난이도|태그|
 |:---:|:---:|:---:|:---:|
-|1197|[최소 스패닝 트리](https://www.acmicpc.net/problem/1197)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [minimum spanning tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=49)|
+|1197|[최소 스패닝 트리](https://www.acmicpc.net/problem/1197)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[minimum spanning tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=49), [graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7)|
 |1368|[물대기](https://www.acmicpc.net/problem/1368)|<img height="25px" width="25px" src="../scripts/images/14.svg"/><div style="color:#EC9A01">Gold II</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [minimum spanning tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=49)|
 |1647|[도시 분할 계획](https://www.acmicpc.net/problem/1647)|<img height="25px" width="25px" src="../scripts/images/12.svg"/><div style="color:#EC9A01">Gold IV</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [minimum spanning tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=49)|
 |1774|[우주신과의 교감](https://www.acmicpc.net/problem/1774)|<img height="25px" width="25px" src="../scripts/images/13.svg"/><div style="color:#EC9A01">Gold III</div>|[graph theory](https://www.acmicpc.net/problemset?sort=ac_desc&algo=7), [minimum spanning tree](https://www.acmicpc.net/problemset?sort=ac_desc&algo=49)|
