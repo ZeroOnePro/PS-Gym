@@ -1,0 +1,32 @@
+name: Generate Solved Problem List
+
+on:
+  push:
+    paths:
+      - "Fast%20Campus/**"
+
+jobs:
+  workbook:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: generate workbook
+        run: python3.11 Fast%20Campus/scripts/workbook.py
+
+      - name: Commit to the repo
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git pull origin main
+          git add .
+          # "echo" returns true so the build succeeds, even if no changed files
+          git commit -m 'workbook을 업데이트 하였습니다' || echo
+          git push

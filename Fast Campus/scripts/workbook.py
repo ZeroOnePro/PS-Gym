@@ -1,6 +1,6 @@
 from urllib import parse
 from bs4 import BeautifulSoup
-from collections import ChainMap, OrderedDict
+from collections import ChainMap
 import multiprocessing as mp
 import json
 import requests
