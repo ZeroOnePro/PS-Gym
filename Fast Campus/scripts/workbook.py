@@ -15,7 +15,7 @@ def scrap_problems(chapter):
     soup = BeautifulSoup(response.text, 'html.parser')
     table = soup.find('table')
     links = [(a['href'], a.parent.find_previous_sibling('td').text) for a in table.findAll("a") if a['href'].startswith("http://boj.kr/")]
-    workbook[f"{chapter}"] = links
+    workbook[f"{chapter}"] = list(set(links))
     return workbook
   except Exception as e:
     print('예외 발생 사유: ', e)
