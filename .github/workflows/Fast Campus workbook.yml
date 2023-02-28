@@ -19,7 +19,7 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: generate workbook
-        run: python3.11 ../Fast%20Campus/scripts/workbook.py
+        run: python3.11 Fast\ Campus/scripts/workbook.py
 
       - name: Commit to the repo
         run: |
