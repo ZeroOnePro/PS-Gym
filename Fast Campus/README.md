@@ -9,4 +9,4 @@
 |06. Tree|![progress bar](https://progress-bar.dev/7/?scale=12&title=progress&width=600&color=babaca&suffix=/12)|[링크](https://github.com/Sparta-Gym/PS-Gym/tree/main/Fast%20Campus/06.%20Tree)|
 |07. Topological Sort|![progress bar](https://progress-bar.dev/5/?scale=8&title=progress&width=600&color=babaca&suffix=/8)|[링크](https://github.com/Sparta-Gym/PS-Gym/tree/main/Fast%20Campus/07.%20Topological%20Sort)|
 |08. Shortest Path|![progress bar](https://progress-bar.dev/2/?scale=2&title=progress&width=600&color=babaca&suffix=/2)|[링크](https://github.com/Sparta-Gym/PS-Gym/tree/main/Fast%20Campus/08.%20Shortest%20Path)|
-|09. Dynamic Programming|![progress bar](https://progress-bar.dev/19/?scale=25&title=progress&width=600&color=babaca&suffix=/25)|[링크](https://github.com/Sparta-Gym/PS-Gym/tree/main/Fast%20Campus/09.%20Dynamic%20Programming)|
+|09. Dynamic Programming|![progress bar](https://progress-bar.dev/20/?scale=25&title=progress&width=600&color=babaca&suffix=/25)|[링크](https://github.com/Sparta-Gym/PS-Gym/tree/main/Fast%20Campus/09.%20Dynamic%20Programming)|
