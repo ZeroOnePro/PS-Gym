@@ -27,7 +27,7 @@ def generate_progress_bar(solved, total):
 def cpp_file_collector(chapters):
   solved = {}
   for k, v in chapters.items():
-    cpp_files = glob.glob(f"../{v}/*.cpp")
+    cpp_files = glob.glob(os.path.join(os.getcwd(), "Fast Campus", v, "*.cpp"))
     cpp_files = list(map(lambda path: path.split('/')[-1], cpp_files))
     solved[v] = cpp_files
   return solved
