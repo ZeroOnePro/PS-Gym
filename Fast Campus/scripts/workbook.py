@@ -5,6 +5,7 @@ import multiprocessing as mp
 import json
 import requests
 import glob
+import os
 
 def scrap_problems(chapter):
   url = f'https://github.com/rhs0266/FastCampus/blob/main/%EA%B0%95%EC%9D%98%20%EC%9E%90%EB%A3%8C/02-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/{parse.quote(chapter)}/README.md'
@@ -40,7 +41,7 @@ def generate_maindir_workbook(workbook, chapters, solved):
 
 def generate_subdir_workbook(workbook, chapters, solved):
   for k, v in chapters.items():
-    with open(f"../{v}/README.md", 'w', encoding="utf-8") as file:
+    with open(os.path.join("..", v, "README.md"), 'w', encoding="utf-8") as file:
         file.write('## 연습문제 리스트\n')
         file.write('|문제|번호|링크|풀이 여부|\n|:---:|:---:|:---:|:---:|\n')
         for problem in workbook[k]:
