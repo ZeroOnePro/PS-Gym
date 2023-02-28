@@ -33,7 +33,7 @@ def cpp_file_collector(chapters):
   return solved
 
 def generate_maindir_workbook(workbook, chapters, solved):
-  with open(f"../README.md", 'w', encoding="utf-8") as file:
+  with open(os.path.join(os.getcwd(), "Fast Campus", "README.md"), 'w', encoding="utf-8") as file:
     file.write('## 연습문제 풀이\n')
     file.write('|챕터|진행도|링크|\n|:---:|:---:|:---:|\n')
     for k, v in workbook.items():
