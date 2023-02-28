@@ -3,7 +3,7 @@ name: Generate Solved Problem List
 on:
   push:
     paths:
-      - "Fast%20Campus/**"
+      - "Fast% Campus/**"
 
 jobs:
   workbook:
