@@ -40,6 +40,7 @@ def generate_maindir_workbook(workbook, chapters, solved):
       file.write(f"|{chapters[k]}|{generate_progress_bar(len(solved[chapters[k]]), len(v))}|[링크](https://github.com/Sparta-Gym/PS-Gym/tree/main/Fast%20Campus/{parse.quote(chapters[k])})|\n")
 
 def generate_subdir_workbook(workbook, chapters, solved):
+  print(os.getcwd())
   for k, v in chapters.items():
     with open(os.path.join("..", v, "README.md"), 'w', encoding="utf-8") as file:
         file.write('## 연습문제 리스트\n')
