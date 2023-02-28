@@ -1,4 +1,4 @@
-name: Generate Solved Problem List
+name: Fast Campus workbook generator
 
 on:
   push:
