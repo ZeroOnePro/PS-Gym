@@ -41,15 +41,15 @@ def generate_maindir_workbook(workbook, chapters, solved):
 
 def generate_subdir_workbook(workbook, chapters, solved):
   print(os.getcwd())
-  for k, v in chapters.items():
-    with open(os.path.join("..", v, "README.md"), 'w', encoding="utf-8") as file:
-        file.write('## 연습문제 리스트\n')
-        file.write('|문제|번호|링크|풀이 여부|\n|:---:|:---:|:---:|:---:|\n')
-        for problem in workbook[k]:
-          problem_link, problem_name = problem
-          problem_id = problem_link.split('/')[-1]
-          checked = "O" if f"{problem_id}.cpp" in solved[chapters[k]] else "X"
-          file.write(f"|{problem_name}|{problem_id}|[링크]({problem_link})|{checked}|\n")
+  # for k, v in chapters.items():
+  #   with open(os.path.join("..", v, "README.md"), 'w', encoding="utf-8") as file:
+  #       file.write('## 연습문제 리스트\n')
+  #       file.write('|문제|번호|링크|풀이 여부|\n|:---:|:---:|:---:|:---:|\n')
+  #       for problem in workbook[k]:
+  #         problem_link, problem_name = problem
+  #         problem_id = problem_link.split('/')[-1]
+  #         checked = "O" if f"{problem_id}.cpp" in solved[chapters[k]] else "X"
+  #         file.write(f"|{problem_name}|{problem_id}|[링크]({problem_link})|{checked}|\n")
 
 if __name__=='__main__':
   chapters = {
