@@ -112,15 +112,15 @@
   - 이 문제의 경우 미로 외곽이라면 어느 곳이던 탈출가능한 경우인데, BFS를 돌다가 범위를 벗어날 경우 탈출 할 수 있음을 의미한다.
 
     ```cpp
-        
+
         if (nx < 0 || nx >= n || ny < 0 || ny >= m) {
           // 범위가 벗어났다는 것은 탈출에 성공했음을 의미
           // 큐에 거리 순으로 들어가므로 최초에 탈출한 시간을 출력하면 된다.
           cout << escape[cur.x][cur.y] + 1;
           return 0;
         };
-        
-      ```
+
+    ```
 
 ## 0x05 응용 4 - 1차원에서의 BFS
 
@@ -153,11 +153,42 @@
   3. 가장 뒤쪽에 삽입하기(다른 레벨의 정점 삽입)
 - 다행스러운건, 모든 기능을 제공하는 자료구조가 있는데 deque이다 이것이 0-1 BFS에서 덱을 사용하는 이유이다
 - 0-1 BFS의 동작
+
+  ```cpp
+
+  int dist[range];
+
+  bool OOB(int x) { return x < 0 || x >= range; }
+
+  void bfs_0_1(int st) {
+    deque<int> dq;
+    fill(dist, dist + range, -1);
+    dq.push_front(st);
+    dist[st] = 0;
+    while (!dq.empty()) {
+      int cur = dq.front();
+      dq.pop_front();
+      for (int nxt : {cur - 1, cur + 1, cur * 2}) {
+        if (OOB(nxt) || dist[nxt] >= 0) continue;
+        if (nxt == cur * 2) {
+          dq.push_front(nxt);
+          dist[nxt] = dist[cur];
+        } else {
+          dq.push_back(nxt);
+          dist[nxt] = dist[cur] + 1;
+        }
+      }
+    }
+  }
+
+  ```
+
   1. deque front에서 `노드(now)` pop
   2. `인접 노드(next)`를 체크한다.
   3. `현재 노드(now)까지의 비용 + 인접 노드(next)로의 가중치` **<** `인접 노드(next)와 시작점 사이의 최적의 비용` 인 경우 next까지 소요된 최적의 비용을 갱신한다. (<= 가 아니라 < 임에 주의하자)
   4. next로의 가중치가 0이면 deque front에 삽입, 1이면 deque back에 삽입한다
   5. deque가 empty될 때까지 반복
+
 - 0-1 BFS **시간 복잡도 분석**
   - 가중치가 1인 간선을 0번 거쳐서 목적지 도달 가능?(최선) -> 가중치가 1인 간선을 1번 거쳐서 목적지 도달 가능? -> .... -> 가중치가 1인 간선을 E번 거쳐서 목적지 도달 가능?(최악)
   - 이런 식으로 비용이 적은 경로부터 탐색을 하게 되기 때문에 특정 간선을 2번 이상 지나가는 경우는 없다. ⇒ O(E)
