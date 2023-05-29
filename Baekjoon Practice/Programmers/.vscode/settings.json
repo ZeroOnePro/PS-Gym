@@ -1,0 +1,30 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.formatOnSave": true,
+  "clang-format.executable": "/opt/homebrew/bin/clang-format",
+  "clang-format.style": "google",
+  "clang-format.language.c.enable": true,
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.wordBasedSuggestions": false,
+    "editor.suggest.insertMode": "replace",
+    "editor.semanticHighlighting.enabled": true
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.wordBasedSuggestions": false,
+    "editor.suggest.insertMode": "replace",
+    "editor.semanticHighlighting.enabled": true
+  },
+  "workbench.settings.useSplitJSON": true,
+  "files.associations": {
+    "algorithm": "cpp",
+    "forward_list": "cpp",
+    "list": "cpp"
+  },
+  "explorer.openEditors.sortOrder": "editorOrder",
+  "explorer.sortOrder": "default",
+  "explorer.sortOrderLexicographicOptions": "unicode"
+}
