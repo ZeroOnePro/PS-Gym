@@ -2,8 +2,8 @@
   "tasks": [
     {
       "type": "cppbuild",
-      "label": "C/C++: g++-12 활성 파일 빌드",
-      "command": "/opt/homebrew/bin/g++-12",
+      "label": "C/C++: g++ 활성 파일 빌드",
+      "command": "/opt/homebrew/bin/g++",
       "args": [
         "-fdiagnostics-color=always",
         "-g",
@@ -16,7 +16,7 @@
       },
       "problemMatcher": ["$gcc"],
       "group": "build",
-      "detail": "컴파일러: /opt/homebrew/bin/g++-12"
+      "detail": "컴파일러: /opt/homebrew/bin/g++"
     }
   ],
   "version": "2.0.0"

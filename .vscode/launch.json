@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "C/C++: g++-12 활성 파일 빌드 및 디버그",
+      "name": "C/C++: g++ 활성 파일 빌드 및 디버그",
       "type": "cppdbg",
       "request": "launch",
       "program": "${fileDirname}/${fileBasenameNoExtension}",
@@ -12,7 +12,7 @@
       "environment": [],
       "externalConsole": false,
       "MIMode": "lldb",
-      "preLaunchTask": "C/C++: g++-12 활성 파일 빌드"
+      "preLaunchTask": "C/C++: g++ 활성 파일 빌드"
     }
   ]
 }
